@@ -1,0 +1,7 @@
+.DS_Store
+.htaccess
+.sass-cache/
+.vscode/
+.well-known/
+preentrega/
+sass/
