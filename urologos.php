@@ -1,5 +1,5 @@
 <?php 
-    include("./permanentes/header.php");
+    include("./permanentes/header.php"); 
 ?>
 
     <section class="containerProductDetails">
