@@ -5,7 +5,7 @@
     <section class="containerProductDetails">
         <div class="containerHeaderProduct">
             <figure>
-                <img src="img/Portafolio/3wishes/1.jpg" alt="3wishes">
+                <img src="img/Portafolio/munsus/principal.jpg" alt="munsus">
             </figure>
             <div class="contentSplas">
                 <span>Más</span>
@@ -16,10 +16,10 @@
                 <div>  
                     <h3>Cliente</h3>
                     <ul>
-                        <li>munsus</li>
+                        <li>Munsus</li>
                         <li>Año</li>
-                        <li>2021</li>
-                        <li>Miami,Florida - USA</li>
+                        <li>2022</li>
+                        <li>Medellin - Colombia</li>
                     </ul>
                 </div>
                 <div>
@@ -35,45 +35,32 @@
             <div class="rightResumen">
                 <h2>Review</h2>
                 <p>
-                   Empresa Ubicada en Miami Florida con un enfoque en Picnics y eventos personalizados 
-                   desarrollando ideas innovadoras dando una experiencia diferente a la reservación y eventos
-                   realizados.
+                   Munsus es una empresa dedicada a la importación y distribución de repuestos Automotores con más de 30 años en el mercado
+                   trayendo a Colombia grandes marcas como son: SAP, BUFFALO, BULL, T&J y GAMMA entre otras como PRESTOLITE
                 </p>
-                <a target="_blank" href="http://3wisheseventdesigners.com/"> Ir al Sitio</a>
+                <a target="_blank" href="https://munsus.com.co/"> Ir al Sitio</a>
             </div>
         </div>
         <div class="resumenWebsite">
             <div class="contentResumenWebsite">
                 <h2>Landing Page</h2>
                 <p>
-                    se crea un diseño de fácil lectura e intuitivo para el prospecto, mostrando
-                    los puntos mas relevantes de cada evento, sus servicios y enfocado en el area de Comunidad.
+                    Se creó una página web funcional y muy intuivica para que las personas interesadas en los productos pudieran conocerlos y conocer
+                    la empresa mucho más a fondo, las marcas que manejan y la experiencia que tienen.
                 </p>
             </div>
             <div class="contentImageClient">
                 <figure>
-                    <img src="img/Portafolio/3wishes/2.jpg" alt="3wishes">
+                    <img src="img/Portafolio/munsus/1.jpg" alt="Munss">
                 </figure>
                 <figure>
-                    <img src="img/Portafolio/3wishes/3.jpg" alt="3wishes event designers">
+                    <img src="img/Portafolio/munsus/2.jpg" alt="Mundial de Suspensones">
                 </figure>
             </div>
-        </div>
-        <div class="resumenWebsite">
-            <div class="contentResumenWebsite">
-                <h2>Reservación</h2>
-                <p>
-                    Se hizo un trabajo funcional y fácil de implementar para los usuarios, un sistema de reservación con 
-                    dia y hora, al igual que cantidad de participantes.
-                </p>
-            </div>
-             <figure>
-                <img src="img/Portafolio/3wishes/4.jpg" alt="3wishes">
-             </figure>
         </div>
     </section>
     <div class="container_next_product">
-        <a href="kulonda.php">Próximo Cliente - <span>Kulonda...</span> <span class="espacio"> &#160; </span></a>
+        <a href="seiki.php">Próximo Cliente - <span>Sei-ki...</span> <span class="espacio"> &#160; </span></a>
     </div>
 
 
