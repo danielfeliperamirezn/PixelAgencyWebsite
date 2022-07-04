@@ -120,7 +120,7 @@ $(function() {
         slidesToShow: 1,
         autoplay: true,
         speed: 700,
-        dots: false
+        dots: true
     });
 
     $(".container_coments").slick({
