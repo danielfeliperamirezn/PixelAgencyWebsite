@@ -19,14 +19,14 @@
                 <div class="ContSlider">
                     <div class="container_slider">
                         <?php foreach ($dataCarpeta as $key => $value): 
-                                $nameClient = substr($value, 0, -3);?>
-                                <a href="<?php echo $nameClient?>php ">
-                                    <div class="container_slider_img">
-                                        <figure>
-                                            <img src="img/slider/<?php echo $value ?>" alt="<?php  echo $nameClient?>">
-                                        </figure>
-                                    </div>
-                                </a>
+                            $nameClient = substr($value, 0, -3);?>
+                            <a href="<?php echo $nameClient?>php ">
+                                <div class="container_slider_img">
+                                    <figure>
+                                        <img src="img/slider/<?php echo $value ?>" alt="<?php  echo $nameClient?>">
+                                    </figure>
+                                </div>
+                            </a>
                         <?php endforeach ?>
                     </div>
                 </div>
