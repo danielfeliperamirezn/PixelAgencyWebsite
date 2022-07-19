@@ -45,6 +45,8 @@ figure {
 header {
   text-align: center;
   position: absolute;
+  padding: 1em;
+  z-index: 99;
   left: 0;
   right: 0;
 }
@@ -74,13 +76,17 @@ header img {
   text-align: center;
   color: white;
 }
+.containerHome .webDesignSection ::hover ~ .containerGalleryImage {
+  transition: 2000s all;
+  transform: scale(2.5);
+}
 .containerHome .webDesignSection .contentWebDesignContent .containerGalleryImage {
   top: 0;
   left: 0;
 }
 .containerHome .webDesignSection .contentWebDesignContent .containerGalleryImage a {
   display: inline-block;
-  width: 32%;
+  width: 32.9%;
 }
 .containerHome .webDesignSection .contentWebDesignContent .linkAnTextwebDesign {
   position: absolute;
@@ -118,6 +124,30 @@ header img {
   height: 80%;
   margin: 0.5em;
   position: relative;
+  overflow: hidden;
+}
+.containerHome .containerDroneVideo .containerVIdeo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.containerHome .containerDroneVideo .contentDronevideo {
+  text-align: center;
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  background-color: rgba(13, 23, 65, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerHome .containerDroneVideo .contentDronevideo img {
+  width: 30%;
 }
 .containerHome .containerDroneVideo .contentDronevideo a {
   background: linear-gradient(135deg, rgba(131, 22, 126, 0.9) 0%, rgba(49, 25, 127, 0.9) 100%);
@@ -130,6 +160,9 @@ header img {
   border-radius: 25px;
   cursor: pointer;
   text-decoration: none;
+}
+.containerHome .containerDroneVideo .contentDronevideo h2 {
+  color: white;
 }
 
 footer {

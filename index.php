@@ -53,9 +53,15 @@
             </div>
         </div>
         <div class="containerDroneVideo">
+            <div class="containerVIdeo">
+                <iframe width="100%" height="100%"  src="https://www.youtube.com/embed/-kBNvzANHTg?controls=0&amp;start=40?autoplay=1" title="Pixel Agency" frameborder="0"  allowfullscreen></iframe>
+            </div>
             <div class="contentDronevideo">
-                <h2>Pixel Agency Drone</h2>
-                <a href="/pixelagency.php">conocer más</a>
+                <div>
+                    <img src="img/logoDrone.png" alt="Drone">
+                    <h2>Pixel Agency <br/>Video Drone</h2>
+                    <a href="/pixelagency.php">conocer más</a>
+                </div>
             </div>
         </div>
     </section>
