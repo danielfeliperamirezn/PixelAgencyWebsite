@@ -169,7 +169,7 @@
                         </div>
                     </div>
                     <div class="price_promo">
-                        <p>$699.900</p>
+                        <p>$300/USD</p>
                     </div>
                 </div>
                 <div class="promos">
@@ -194,7 +194,7 @@
                         </div>
                     </div>
                     <div class="price_promo">
-                        <p>$999.900</p>
+                        <p>$600/USD</p>
                     </div>
                 </div>
                 <div class="promos">
@@ -222,7 +222,7 @@
                         </div>
                     </div>
                     <div class="price_promo">
-                        <p>$200.000/Año</p>
+                        <p>$100/USD - Año</p>
                     </div>
                 </div>
             </div>
@@ -250,7 +250,7 @@
                             <figure><img src="img/Marcas/jakofashion.png" alt=""></figure>
                         </li>
                         <li>
-                            <figure><img src="img/Marcas/SecretoBelleza.png" alt=""></figure>
+                            <figure><img src="img/Marcas/sap.png" alt="SAP miami"></figure>
                         </li>
                         <li>
                             <figure><img src="img/Marcas/Drakon.png" alt=""></figure>

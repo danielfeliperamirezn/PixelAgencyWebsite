@@ -5,6 +5,7 @@
     $final = $fecha - $anio;
     $llegada = 2011;
     $llegadafinal = $fecha - $llegada;
+    $tiempodeRecorrido = $llegadafinal - 1;
 
 ?>
     <main>
@@ -17,7 +18,7 @@
             </section>
             <section class="saludo ">
                 <p>
-                <span>🤙🏼</span>, De ante mano, gracias por querer leer quien soy, mi trayectoria
+                Hola<span>🤙🏼</span>, De ante mano, gracias por querer leer un poco sobre mi, mi trayectoria
                     y porque trabajar conmigo.
                 </p>
             </section>
@@ -25,20 +26,21 @@
                 <h2>Daniel Ramirez</h2>
                 <p>
                     Mi nombre es Daniel Ramirez, tengo <?php echo $final  ?> años de edad, vivo en la ciudad 
-                    de medellín hace <?php echo $llegadafinal ?>  años, nacido en la ciudad de Bogotá, desde muy adolecente me interesé 
-                    por la creación de sitios web, Autodidacta y un apasionado por el auto conocimiento, llevo 
-                    realizando trabajos profesionalmente hace más de 10 años, y en este tiempo mis habilidades 
-                    han crecido año tras año, me encantan los proyectos retadores, los proyectos ambisios donde 
-                    los clientes o empresas saben la importancia de tener presencia Online.
+                    de medellín hace <?php echo $llegadafinal ?>  años, nacido en la ciudad de Bogotá DC, desde muy 
+                    adolecente me interesé por la creación de sitios web, Autodidacta y un apasionado por el auto 
+                    conocimiento, llevo realizando trabajos profesionalmente hace más de <?php echo $tiempodeRecorrido ?> años.
+                    En este tiempo mis habilidades han crecido año tras año, me encantan los proyectos retadores, los proyectos 
+                    ambisios donde los clientes o empresas saben la importancia de tener presencia Digital y sobre todo el valor de esta.
                 </p>
             </section>
             <section class="containerWrap">
                 <div>
                     <h4>Ha valido la pena</h4>
                     <p>
-                        Por estos 10 años que he trabajado como independiente, integrandome a muchos equipos, muchas
+                        Por estos <?php echo $tiempodeRecorrido ?> años que he trabajado como independiente, integrandome a muchos equipos, muchas
                         empresas que creen en mi trabajo y mucho aprendizaje me han echo madurar y crecer como 
-                        profesional Gracias por la confianza y el tiempo.
+                        profesional Gracias por la confianza y el tiempo, pero ahora estoy Listo para seguir retando mis conocimientos
+                        y de mi mano poder ayudar a Muchas más empresas a crear esa presencia en Internet de una manera Integral y coherente.
                     </p>
                 </div>
             </section>
