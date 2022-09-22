@@ -28,7 +28,7 @@
         <img src="img/logo final principal.png" alt="pixel Agency">
     </header>
     <section class="containerHome">
-        <div class="webDesignSection">
+        <div class="webDesignSection ">
             <div class="contentWebDesignContent">
                 <div class="containerGalleryImage">
                     <?php foreach ($dataCarpeta as $key => $value): 
@@ -43,24 +43,31 @@
                     <?php endforeach ?>
                 </div>
                 <div class="linkAnTextwebDesign">
-                    <div>
+                    <figure class="logo_PixelWeb">
                         <img src="img/logo pixel agency.png" alt="Pixel Agency">
-                        <h2>Pixel Agency</h2>
-                        <h3>Diseño y Desarrollo Web</h3>
-                        <a href="pixelagency.php">conocer más</a>
+                    </figure>
+                    <div class="contentDescPixelWeb">
+                        <h2>Pixel Web</h2>
+                        <p alt="Diseño web en Medellin, Marketing digital, SEO, Manejo de Redes Sociales, Posicionamiento Web">Diseño web en Medellin, Marketing digital, SEO, Manejo de Redes Sociales, Posicionamiento Web</p>
+                        <a href="pixelagency.php" class="btn_pixel">conocer más</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="containerDroneVideo">
+        <div class="containerDroneVideo contentIndex">
             <div class="containerVIdeo">
                 <iframe width="100%" height="100%"  src="https://www.youtube.com/embed/-kBNvzANHTg?controls=0&amp;start=40?autoplay=1" title="Pixel Agency" frameborder="0"  allowfullscreen></iframe>
             </div>
             <div class="contentDronevideo">
-                <div>
+                <figure class="logo_PixelVisual">
                     <img src="img/logoDrone.png" alt="Drone">
-                    <h2>Pixel Agency <br/>Video Drone</h2>
-                    <a href="/pixelagency.php">conocer más</a>
+                </figure>
+                <div class="contentDescPixelVisual">
+                    <h2>Pixel AudioVisual</h2>
+                    <p alt="Videos con Drone, Contenido AudioVisual, Videos para propiedades,
+Videos promocionales Medellín, Creación de contenido.">Videos con Drone, Contenido AudioVisual, Videos para propiedades,
+Videos promocionales Medellín, Creación de contenido.</p>
+                    <a href="/pixelagency.php" class="btn_pixel">conocer más</a>
                 </div>
             </div>
         </div>
