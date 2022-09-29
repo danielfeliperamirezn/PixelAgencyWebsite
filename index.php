@@ -77,6 +77,7 @@ Videos promocionales Medellín, Creación de contenido.</p>
         <a href="https://www.facebook.com/pixelAgencyy" target="_blank"><span class="icon-facebook"></span></a>
         <a href="https://instagram.com/pixelagencyy" target="_blank"><span class="icon-instagram"></span></a>
     </footer>
+    <script src="js/jsIndex.js"></script>
 </body>
 </html>
 

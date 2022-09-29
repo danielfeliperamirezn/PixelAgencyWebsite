@@ -23,6 +23,27 @@ p, article {
 
 img {
   max-width: 100%;
+  display: block;
+}
+
+.btn_pixel::after {
+  content: "TRABAJEMOS JUNTOS";
+  background-color: #123FD8;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  transition: 0.2s all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_pixel:hover:after {
+  left: 0;
+  transition: 0.2s all;
+  color: white;
 }
 
 header {
@@ -46,8 +67,12 @@ header img {
   top: 0;
   overflow: hidden;
 }
+.containerHome .webDesignSection .contentWebDesignContent .containerGalleryImage {
+  animation: scroll 80s linear infinite;
+  -webkit-animation: scroll 80s linear infinite;
+}
 .containerHome .webDesignSection .contentWebDesignContent .containerGalleryImage a {
-  width: 33.06%;
+  width: 33%;
   display: inline-block;
 }
 .containerHome .webDesignSection .contentWebDesignContent .containerGalleryImage a .container_slider_img figure {
@@ -83,11 +108,14 @@ header img {
   margin-bottom: 2em;
 }
 .containerHome .webDesignSection .contentWebDesignContent .linkAnTextwebDesign .contentDescPixelWeb .btn_pixel {
-  background-color: #123FD8;
-  color: white;
+  border: 2px solid #123FD8;
   text-transform: uppercase;
   padding: 1em 3em;
   text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  color: #123FD8;
 }
 .containerHome .containerDroneVideo {
   background-color: antiquewhite;
@@ -96,8 +124,10 @@ header img {
   height: 100%;
   top: 0;
   position: absolute;
+  overflow: hidden;
 }
 .containerHome .containerDroneVideo .containerVIdeo {
+  transition: 0.2s all;
   position: absolute;
   top: 0%;
   left: 0;
@@ -134,21 +164,32 @@ header img {
   color: white;
 }
 .containerHome .containerDroneVideo .contentDronevideo .contentDescPixelVisual .btn_pixel {
-  background-color: #123FD8;
-  color: white;
+  border: 2px solid #123FD8;
   text-transform: uppercase;
   padding: 1em 3em;
   text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  color: white;
 }
 
-.webDesignSection:hover {
-  width: 70%;
-  transition: 0.2s all;
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translatey(-440px);
+  }
+}
+.webDesignSection:hover ~ .contentWebDesignContent {
+  transform: scale(1.1);
+  transition: 0.6s all;
 }
 
-.containerDroneVideo:hover {
-  width: 70%;
-  transition: 0.2s all;
+.containerDroneVideo:hover > .containerVIdeo {
+  transform: scale(1.1);
+  transition: 0.6s all;
 }
 
 /*# sourceMappingURL=styleHome.css.map */
