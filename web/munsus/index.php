@@ -65,5 +65,5 @@
 
 
 <?php 
-    include("./permanentes/footer.php");
+    include("../permanentes/footer.php");
 ?>
