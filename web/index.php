@@ -317,11 +317,11 @@
         <section class="slideClients">
             <div class="containerSlider">
                 <?php foreach ($dataCarpeta as $key => $value): 
-                    $nameCompress = substr($value, 0, -3) ?>
+                    $nameCompress = substr($value, 0, -4) ?>
                         <div class='containerImage'>
                             <div class='contentImage'> 
-                                <a href=" <?php echo $nameCompress ?>php">
-                                    <img src="./img/slider/<?php echo $value ?>" alt="">
+                                <a href="./<?php echo $nameCompress ?>">
+                                    <img src="../assets/img/slider/<?php echo $value ?>" alt="">
                                 </a>
                             </div>
                         </div>
