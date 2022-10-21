@@ -1,6 +1,6 @@
 <?php
 
-    $dir = opendir("./img/slider");
+    $dir = opendir("assets/img/slider");
     $dataCarpeta = [];
 
     while ($archivo = readdir($dir)) {
@@ -19,13 +19,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" type="image/png" href="img/logo pixel agency.png" sizes="64x64">
-    <link rel="stylesheet" href="css/styleHome.css">
-    <link rel="stylesheet" href="css/styleFonts.css">
+    <link rel="stylesheet" href="assets/css/styleHome.css">
+    <link rel="stylesheet" href="assets/css/styleFonts.css">
     <title>Pixel Agency</title>
 </head>
 <body>
     <header>
-        <img src="img/logo final principal.png" alt="pixel Agency">
+        <img src="assets/img/logo final principal.png" alt="pixel Agency">
     </header>
     <section class="containerHome">
         <div class="webDesignSection ">
@@ -36,7 +36,7 @@
                         <a href="<?php echo $nameClient?>php ">
                             <div class="container_slider_img">
                                 <figure>
-                                    <img src="img/slider/<?php echo $value ?>" alt="<?php  echo $nameClient?>">
+                                    <img src="assets/img/slider/<?php echo $value ?>" alt="<?php  echo $nameClient?>">
                                 </figure>
                             </div>
                         </a>
@@ -44,12 +44,12 @@
                 </div>
                 <div class="linkAnTextwebDesign">
                     <figure class="logo_PixelWeb">
-                        <img src="img/logo pixel agency.png" alt="Pixel Agency">
+                        <img src="assets/img/logo pixel agency.png" alt="Pixel Agency">
                     </figure>
                     <div class="contentDescPixelWeb">
                         <h2>Pixel Web</h2>
                         <p alt="Diseño web en Medellin, Marketing digital, SEO, Manejo de Redes Sociales, Posicionamiento Web">Diseño web en Medellin, Marketing digital, SEO, Manejo de Redes Sociales, Posicionamiento Web</p>
-                        <a href="pixelagency.php" class="btn_pixel">conocer más</a>
+                        <a href="web" class="btn_pixel">conocer más</a>
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@
             </div>
             <div class="contentDronevideo">
                 <figure class="logo_PixelVisual">
-                    <img src="img/logoDrone.png" alt="Drone">
+                    <img src="assets/img/logoDrone.png" alt="Drone">
                 </figure>
                 <div class="contentDescPixelVisual">
                     <h2>Pixel AudioVisual</h2>
