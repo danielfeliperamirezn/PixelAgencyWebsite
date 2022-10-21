@@ -238,29 +238,29 @@
                     </p>
                     <ul>
                         <li>
-                            <figure><img src="img/Marcas/suroeste.png" alt="Suroeste"></figure>
+                            <figure><img src="./assets/img/Marcas/suroeste.png" alt="Suroeste"></figure>
                         </li>
                         <li>
-                            <figure><img src="img/Marcas/ramirartes.png" alt=""></figure>
+                            <figure><img src="./assets/img/Marcas/ramirartes.png" alt=""></figure>
                         </li>
                         <li>
-                            <figure><img src="img/Marcas/santorini.png" alt=""></figure>
+                            <figure><img src="./assets/img/Marcas/santorini.png" alt=""></figure>
                         </li>
                         <li>
-                            <figure><img src="img/Marcas/jakofashion.png" alt=""></figure>
+                            <figure><img src="./assets/img/Marcas/jakofashion.png" alt=""></figure>
                         </li>
                         <li>
-                            <figure><img src="img/Marcas/sap.png" alt="SAP miami"></figure>
+                            <figure><img src="./assets/img/Marcas/sap.png" alt="SAP miami"></figure>
                         </li>
                         <li>
-                            <figure><img src="img/Marcas/Drakon.png" alt=""></figure>
+                            <figure><img src="./assets/img/Marcas/Drakon.png" alt=""></figure>
                         </li>
                       
                     </ul> 
                 </div>
                 <div class="conteinerImageOffice">
                     <figure>
-                        <img src="img/oficina.jpg" alt="Oficina Pixel Agency">
+                        <img src="./assets/img/fotoOficna.png" alt="Oficina Pixel Agency">
                     </figure>
                 </div>
             </div>
@@ -338,7 +338,7 @@
                         ambiciones y una amplia experiencia en trabajos digitales, apasionado
                         por la téconologia y todo lo que compete esta maravillosa industria.
                     </p>
-                    <a href="quiensoy.php" id="sobreMi">Conoce más sobre mi</a>
+                    <a href="./historia" id="sobreMi">Conoce más sobre mi</a>
                 </div>
                 <div class="rightContainerAbout">
                 </div>

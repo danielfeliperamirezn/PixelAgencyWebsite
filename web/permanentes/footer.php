@@ -1,6 +1,4 @@
 
-
-    
 </body>
 <footer>
     <div class="container_Form maxWidth">
@@ -122,5 +120,5 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="../assets/js/scriptPixel.js" ></script>
 <script type="text/javascript" src="../assets/js/slick.js"></script>
-<script src="../js/mail.js"></script>
+<script src="../assets/js/mail.js"></script>
 </html>

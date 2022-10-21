@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "MontserratBlack";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  src: url("../fuente/Montserrat-Black.ttf");
+}
+@font-face {
+  font-family: "MontserratLight";
+  /*src: url('../fuente/Montserrat-Bold.ttf');*/
+  src: url("../fuente/Montserrat-Light.ttf");
+}
+h1, h2, h3, h4, h5, h6, a {
+  font-family: "MontserratBlack";
+}
+
+p, article {
+  font-family: "MontserratLight";
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.btn_pixel::after {
+  content: "TRABAJEMOS JUNTOS";
+  background-color: #123FD8;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  transition: 0.2s all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_pixel:hover:after {
+  left: 0;
+  transition: 0.2s all;
+  color: white;
+}
+
+header {
+  display: none;
+}
+header img {
+  width: 20%;
+}
+
+.containerHome .contentIndex {
+  height: 50%;
+  top: 0;
+  position: relative;
+}
+.containerHome .webDesignSection {
+  background-color: #123FD8;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+.containerHome .webDesignSection .contentWebDesignContent .containerGalleryImage {
+  animation: scroll 80s linear infinite;
+  -webkit-animation: scroll 80s linear infinite;
+}
+.containerHome .webDesignSection .contentWebDesignContent .containerGalleryImage a {
+  width: 33%;
+  display: inline-block;
+}
+.containerHome .webDesignSection .contentWebDesignContent .containerGalleryImage a .container_slider_img figure {
+  position: relative;
+}
+.containerHome .webDesignSection .contentWebDesignContent .linkAnTextwebDesign {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+}
+.containerHome .webDesignSection .contentWebDesignContent .linkAnTextwebDesign .logo_PixelWeb {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 6%;
+}
+.containerHome .webDesignSection .contentWebDesignContent .linkAnTextwebDesign .contentDescPixelWeb {
+  margin-left: 5%;
+}
+.containerHome .webDesignSection .contentWebDesignContent .linkAnTextwebDesign .contentDescPixelWeb h2 {
+  font-size: 4em;
+  text-transform: uppercase;
+}
+.containerHome .webDesignSection .contentWebDesignContent .linkAnTextwebDesign .contentDescPixelWeb p {
+  margin-bottom: 2em;
+}
+.containerHome .webDesignSection .contentWebDesignContent .linkAnTextwebDesign .contentDescPixelWeb .btn_pixel {
+  border: 2px solid #123FD8;
+  text-transform: uppercase;
+  padding: 1em 3em;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  color: #123FD8;
+}
+.containerHome .containerDroneVideo {
+  background-color: antiquewhite;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  overflow: hidden;
+}
+.containerHome .containerDroneVideo .containerVIdeo {
+  transition: 0.2s all;
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.containerHome .containerDroneVideo .contentDronevideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(4px);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.containerHome .containerDroneVideo .contentDronevideo .logo_PixelVisual {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 6%;
+}
+.containerHome .containerDroneVideo .contentDronevideo .contentDescPixelVisual {
+  margin-left: 5%;
+}
+.containerHome .containerDroneVideo .contentDronevideo .contentDescPixelVisual h2 {
+  font-size: 4em;
+  text-transform: uppercase;
+  color: white;
+}
+.containerHome .containerDroneVideo .contentDronevideo .contentDescPixelVisual p {
+  margin-bottom: 2em;
+  color: white;
+}
+.containerHome .containerDroneVideo .contentDronevideo .contentDescPixelVisual .btn_pixel {
+  border: 2px solid #123FD8;
+  text-transform: uppercase;
+  padding: 1em 3em;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  color: white;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translatey(-440px);
+  }
+}
+.webDesignSection:hover ~ .contentWebDesignContent {
+  transform: scale(1.1);
+  transition: 0.6s all;
+}
+
+.containerDroneVideo:hover > .containerVIdeo {
+  transform: scale(1.1);
+  transition: 0.6s all;
+}
+
+/*# sourceMappingURL=styleHome.css.map */
