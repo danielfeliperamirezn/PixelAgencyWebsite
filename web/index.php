@@ -41,6 +41,13 @@
                 <b>Juntos</b> podemos hacer grandes cosas.
             </p>
         </section>
+        <section class="containerCompra">
+            <h3>Compra Ya tu tienda en linea o sitio Web</h3>
+            <div class="container">
+                <a class="btn_WhatsApp" href="https://wa.link/u8a270" target="_blank"><span class="icon-whatsapp"></span>Hablemos</a>
+                <a class="btn_pixel"> Comprar <span class="icon-bag"></span> </a>
+            </div>
+        </section>
         <section class="bannerInvitation">
             <div class="contentInvitation maxWidth">
                 <div class="containerBannerInvitation">
@@ -169,7 +176,7 @@
                         </div>
                     </div>
                     <div class="price_promo">
-                        <p>$300/USD</p>
+                        <p class="font_bold">$300/USD</p>
                     </div>
                 </div>
                 <div class="promos">

@@ -48,7 +48,7 @@
 <body>
     <header>
         <div class="containerItemsHeader">
-            <a href="../index.php" class="linkLogo">
+            <a href="../" class="linkLogo">
                 <figure class="icono_pixel"> 
                     <img src="../assets/img/logo pixel agency.png" alt="Pixel Agency">
                 </figure>

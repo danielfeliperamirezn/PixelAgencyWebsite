@@ -17,12 +17,71 @@ h1, h2, h3, h4, h5, h6, a, strong {
 }
 
 p, article, span, li, ul {
-  font-family: "MontserratLight";
+  font-family: "MontserratLight" !important;
 }
 
 p, article, ul, li {
   color: #484758 !important;
   font-weight: bold;
+}
+
+/* .font_bold {
+  font
+} */
+
+.btn_WhatsApp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 3em;
+  margin: 1em;
+  color: #0c4ce2;
+}
+
+.btn_WhatsApp span {
+  padding: 15px;
+  font-size: 2em;
+  border-radius: 100%;
+  color: white;
+  transition: .5s all;
+  overflow: hidden;
+  margin: .5em;
+  background: linear-gradient(135deg, #2612aa 0%, #0c4ce2 100%);
+}
+
+.btn_WhatsApp:hover > span {
+  /* padding: 20px; */
+  transition: .5s all;
+}
+
+.btn_pixel {
+  border: 2px solid #123FD8;
+  text-transform: uppercase;
+  padding: 1em 3em;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  color: #123FD8;
+}
+.btn_pixel::after {
+  content: "TRABAJEMOS JUNTOS";
+  background-color: #123FD8;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  transition: 0.2s all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_pixel:hover:after {
+  left: 0;
+  transition: 0.2s all;
+  color: white;
 }
 
 .displayBlock {
@@ -680,6 +739,48 @@ a.slick-slide {
   padding: 1em 0;
 }
 
+/* CTA */
+
+.containerCompra {
+  text-align: center;
+  margin: 2em;
+  overflow: hidden;
+  position: relative;
+}
+.containerCompra::before{
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #0e45de;
+  border-radius: 100%;
+  left: 20%;
+  top: 4%;
+  animation: topDown 2s infinite;
+}
+.containerCompra::after{
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #db2f5f;
+  border-radius: 100%;
+  right: 20%;
+  bottom: 4%;
+  animation: topDown2 2s infinite;
+}
+
+.containerCompra h3 {
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #fc4d4e;
+}
+
+.containerCompra a {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
 /* CLIENTES */
 .contentClients {
   display: flex;
@@ -1320,7 +1421,9 @@ footer .piePixel p {
 }
 
 .Container_promos .promos .price_promo p {
+  font-family: "MontserratBlack" !important;
   color: white !important;
+  letter-spacing: 2px;
 }
 
 .Container_promos:before {

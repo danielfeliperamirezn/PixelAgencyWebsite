@@ -44,3 +44,27 @@
     color: #7512b7; } }
 
 /*# sourceMappingURL=animate.css.map */
+
+@keyframes topDown {
+  0% {
+    top: 4%;
+  }
+  50% {
+    top: 8%;
+  }
+  100% {
+    top: 4%;
+  }
+}
+
+@keyframes topDown2 {
+  0% {
+    bottom: 4%;
+  }
+  50% {
+    bottom: 8%;
+  }
+  100% {
+    bottom: 4%;
+  }
+}
