@@ -108,8 +108,7 @@
                             </figure>
                             <h3>POSICIONAMIENTO </br> EN GOOGLE</h3>
                             <p>
-                                Google es la plataforma #1 en el mundo en navegación, haz que tu página web o tienda virtual
-                                sea más fácil de encontrar para tus potenciales clinetes.
+                            Google es la plataforma #1 en el mundo en navegación, haz que tu página Web o tienda virtual sea más fácil de encontrar para tus potenciales clientes.
                             </p>
                         </div>
                     </li>
@@ -145,9 +144,7 @@
                             </figure>
                             <h3>Creación de Contenido</h3>
                             <p>
-                                ¿Tu contenido es de alto valor o generico? Te asesoramos y guiamos en el proceso del tipo de 
-                                contenido que a tu marca más le funciona con estratégias en tendencia y aplicandolo para que 
-                                vuelva viral tu contenido.
+                            ¿Tu contenido es de alto valor o genérico? Te asesoramos y guiamos en el proceso del tipo de contenido que a tu marca más le funciona con estrategias en tendencia y aplicándolo para que vuelva viral tu contenido.
                             </p>
                         </div>
                     </li>
@@ -169,7 +166,7 @@
                             </figure>
                             <h3>Fotografia </br> Producto</h3>
                             <p>
-                                Las imagenes venden, te ayudamos a mostrar tus productos de manera profesional y optimizado
+                                Las imágenes venden, te ayudamos a mostrar tus productos de manera profesional y optimizado
                                 para usarlas en redes sociales y cualquier medio digital.
                             </p>
                         </div>
@@ -195,7 +192,7 @@
                             <p>
                                 Una vez integrado toda la tienda virtual con las redes sociales podemos crear campañas
                                 poderosas en Meta, la plataforma con millones de usuarios recurrentes, en Instagram y Facebook,
-                                haciendolo de manera Inteligente.
+                                haciéndolo de manera Inteligente.
                             </p>
                         </div>
                     </li>
