@@ -1,0 +1,14 @@
+.containerHome {
+    height: 800px;
+}
+.webDesignSection, .containerDroneVideo {
+    width: 100% !important;
+    position: relative !important;
+    overflow: inherit !important;
+}
+.containerHome .containerDroneVideo .contentDronevideo .contentDescPixelVisual h2 {
+    font-size: 3em;
+}
+.logo_PixelWeb, .logo_PixelVisual {
+    width: 20% !important;
+}

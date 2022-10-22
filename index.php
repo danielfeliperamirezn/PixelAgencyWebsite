@@ -20,6 +20,7 @@
 
     <link rel="icon" type="image/png" href="img/logo pixel agency.png" sizes="64x64">
     <link rel="stylesheet" href="assets/css/styleHome.css">
+    <link rel="stylesheet" media="(max-width:800px)" href="assets/css/responsiveHome.css">
     <link rel="stylesheet" href="assets/css/styleFonts.css">
     <title>Pixel Agency</title>
 </head>

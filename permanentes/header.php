@@ -27,6 +27,7 @@
     gtag('config', 'UA-118723492-2');
     </script>-->
     <!-- Global site tag (gtag.js) - Google Ads: 10810068280 -->
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10810068280"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -48,7 +49,7 @@
 <body>
     <header>
         <div class="containerItemsHeader">
-            <a href="index.php" class="linkLogo">
+            <a href="/" class="linkLogo">
                 <figure class="icono_pixel"> 
                     <img src="assets/img/logo pixel agency.png" alt="Pixel Agency">
                 </figure>
