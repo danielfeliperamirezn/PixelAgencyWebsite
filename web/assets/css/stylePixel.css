@@ -12,11 +12,13 @@
   outline: none;
 }
 
-h1, h2, h3, h4, h5, h6, a, strong {
+h1, h2, h3, h4, h5, h6, a, button {
   font-family: "MontserratBlack";
 }
 
-p, article, span, li, ul {
+
+p, article, span, li, ul, 
+input, textarea, select, strong  {
   font-family: "MontserratLight" !important;
 }
 
@@ -276,7 +278,6 @@ header .menu_btn .containerSimbol .pixelRightBottom {
   position: relative;
   overflow: hidden;
 }
-
 .menu_principal .container_menu_principal nav ul .cont_trabajos:before {
   content: "";
   position: absolute;
@@ -617,6 +618,54 @@ a.slick-slide {
   line-height: 20px;
 }
 
+/* Beneficios */
+
+.containerBeneficios {
+  text-align: center;
+  padding: 2em 0;
+}
+
+.headerBeneficios {
+  margin: 2em;
+}
+.headerBeneficios h3 {
+  font-size: 2em;
+  color: #fc4d4e;
+}
+.contentBeneficios {
+  padding: 1em 0;
+}
+.contentBeneficios .cont_ben {
+  text-align: left;
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  padding: 2em;
+  position: relative
+}
+.cont_ben::before {
+  content: "";
+  left: 0;
+  top: 0;
+  height: 50%;
+  width: 3px;
+  background: #000;
+  position: absolute;
+}
+
+.cont_ben h2 {
+  color: #fc4d4e;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.priceWeb h3{
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+/* services */
+
 .containerServices {
   position: relative;
 }
@@ -639,13 +688,13 @@ a.slick-slide {
   top: 50%;
   width: 20%;
   height: 2px;
-  background-color: #1a0b5a;
+  background-color: #0c4ce2;
   animation: movimientoLinea 5s infinite;
 }
 
 .containerServices .containerExplicationServices h2 {
   text-transform: uppercase;
-  color: #1a0b5a;
+  color: #0c4ce2;
   font-size: 2em;
 }
 
@@ -656,7 +705,7 @@ a.slick-slide {
 
 .containerServices .containerExplicationServices a {
   text-decoration: none;
-  color: #1a0b5a;
+  color: #0c4ce2;
   font-weight: bold;
   font-size: 1.2em;
   position: relative;
@@ -733,7 +782,7 @@ a.slick-slide {
 
 .containerServices .servicesIcons ul li .contentService h3 {
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 1.8em;
   margin: 0 auto;
   color: #fc4d4e !important;
   padding: 1em 0;
@@ -790,7 +839,7 @@ a.slick-slide {
 }
 
 .contentClients .content_Clients_Logs {
-  background: linear-gradient(137.86deg, #4a00d8, #7512b7 23.75%, #fc4d4e);
+  background: linear-gradient(137.86deg, #0e45de, #7512b7 23.75%, #fc4d4e);
   box-sizing: border-box;
   padding: 3em 1.9em;
   width: 50%;
@@ -904,7 +953,7 @@ a.slick-slide {
 
 .containerAboutIndex .containerboxAbout .lefContainerAbout .lineSpan {
   position: relative;
-  color: #83167e !important;
+  color: #db2f5f !important;
 }
 
 .containerAboutIndex .containerboxAbout .lefContainerAbout .lineSpan:before {
@@ -914,7 +963,7 @@ a.slick-slide {
   top: 50%;
   width: 20%;
   height: 2px;
-  background-color: #83167e !important;
+  background-color: #db2f5f !important;
   animation: movimientoLinea 5s infinite;
 }
 
@@ -926,7 +975,7 @@ a.slick-slide {
 
 .containerAboutIndex .containerboxAbout .lefContainerAbout h2 span {
   font-size: 0.5em;
-  color: #83167e;
+  color: #db2f5f;
   font-weight: bold;
 }
 
@@ -952,7 +1001,7 @@ a.slick-slide {
   top: 50%;
   width: 30%;
   height: 2px;
-  background-color: #83167e;
+  background-color: #db2f5f;
   transition: 1s all;
 }
 
@@ -1130,7 +1179,6 @@ a.slick-slide {
   width: 45%;
   margin-right: 1em;
   border-radius: 50px;
-  font-family: BentonSans !important;
 }
 
 .form_email form input::placeholder {
@@ -1332,7 +1380,7 @@ footer .piePixel p {
 .Container_promos {
   text-align: center;
   position: relative;
-  padding: 3em 0 8em;
+  padding: 3em 0 2em;
   overflow: hidden;
 }
 
@@ -1359,7 +1407,7 @@ footer .piePixel p {
 }
 
 .Container_promos .promos .promo1 .body_promo {
-  padding: 0 0 2em;
+  /* padding: 0 0 2em; */
 }
 
 .Container_promos .promos .promo1 .body_promo ul {
@@ -1373,20 +1421,31 @@ footer .piePixel p {
   overflow: hidden;
 }
 
-.Container_promos .promos .promo1 .footer_promo a {
-  position: relative;
+.contentMorePro {
+  text-transform: uppercase;
+  margin: 1.5em;
 }
 
-.Container_promos .promos .promo1 .footer_promo a:before {
-  content: "";
-  position: absolute;
-  left: -150%;
-  border-bottom: 1px solid #3a20cc;
-  bottom: 0;
-  width: 100%;
-  height: 3px;
-  transition: 0.5s all;
+.contentMorePro a {
+  color: #0c4ce2;
+  position: relative;
+  overflow: hidden;
 }
+
+/* .contentMorePro a:before {
+  content: "";
+  left: -100%;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background: #db2f5f;
+  transition: .5s all;
+}
+.contentMorePro a:hover:before {
+  left: 0;
+  transition: .5s all;
+} */
 
 .Container_promos .promos .promo1 .footer_promo a:hover:before {
   border-bottom: 1px solid #3a20cc;
@@ -1395,7 +1454,7 @@ footer .piePixel p {
 }
 
 .Container_promos .promos .promo1 .footer_promo p {
-  margin: 1em;
+  margin: 0;
 }
 
 .Container_promos .promos .body_promo ul li {
@@ -1409,13 +1468,14 @@ footer .piePixel p {
 .Container_promos .promos .body_promo ul li span {
   padding: 1em;
   font-size: 0.6em;
+  color: #db2f5f;
 }
 
 .Container_promos .promos .price_promo {
   background: linear-gradient(137.86deg, #4a00d8, #7512b7 23.75%, #fc4d4e);
   transition: 0.5s all;
   padding: 0.2em 2em;
-  width: 55%;
+  width: 58%;
   margin: 0 auto;
   margin-top: -25px;
 }
@@ -1440,7 +1500,7 @@ footer .piePixel p {
 }
 
 .Container_promos .titleh2 {
-  color: #1a0b5a;
+  color: #0c4ce2;
   position: relative;
   text-transform: uppercase;
   font-size: 1.7em;
@@ -2263,7 +2323,6 @@ footer .piePixel p {
   outline: none;
   display: inline-block;
   vertical-align: bottom;
-  font-family: BentonSans !important;
 }
 
 .containerContact .right_content_contact form input::placeholder, .containerContact .right_content_contact form textarea::placeholder {
@@ -2332,16 +2391,15 @@ footer .piePixel p {
 
 .container_Form .contentDataForm .formContactGlobal form input, .container_Form .contentDataForm .formContactGlobal form textarea {
   border: none;
-  border-bottom: 1px solid #83167e;
+  border-bottom: 1px solid #db2f5f;
   background-color: transparent;
   padding: 0.5em;
-  color: #83167e;
+  color: #db2f5f;
   margin: 1em;
   outline: none;
   display: inline-block;
   vertical-align: bottom;
   resize: none;
-  font-family: BentonSans !important;
 }
 
 .container_Form .contentDataForm .formContactGlobal form input::placeholder, .container_Form .contentDataForm .formContactGlobal form textarea::placeholder {
@@ -2357,7 +2415,6 @@ footer .piePixel p {
   border-bottom: 1px solid #83167e;
   color: #361dba;
   outline: none;
-  font-family: BentonSans !important;
 }
 
 .container_Form .contentDataForm .formContactGlobal form .container_select select:focus {
@@ -2365,8 +2422,8 @@ footer .piePixel p {
 }
 
 .container_Form .contentDataForm .formContactGlobal form button {
-  background-color: #83167e;
-  border: 2px solid #83167e;
+  background-color: #db2f5f;
+  border: 2px solid #db2f5f;
   color: white;
   margin: 1em;
   padding: 0.3em 1em;
@@ -2375,12 +2432,11 @@ footer .piePixel p {
   border-radius: 5px;
   text-transform: uppercase;
   font-size: 0.9em;
-  font-family: BentonSans !important;
 }
 
 .container_Form .contentDataForm .formContactGlobal form button:hover {
   background-color: white;
-  color: #83167e;
+  color: #db2f5f;
 }
 
 .container_Form .contentDataForm .containerDescForm p {

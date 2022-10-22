@@ -31,7 +31,7 @@
                     </div>
                 </div>
                 <div class="containerText">
-                    <p>Diseño y desarrollo Digital</p>
+                    <p>Tiendas virtuales o Páginas Web</p>
                 </div>
             </div>
         </section>
@@ -45,7 +45,7 @@
             <h3>Compra Ya tu tienda en linea o sitio Web</h3>
             <div class="container">
                 <a class="btn_WhatsApp" href="https://wa.link/u8a270" target="_blank"><span class="icon-whatsapp"></span>Hablemos</a>
-                <a class="btn_pixel"> Comprar <span class="icon-bag"></span> </a>
+                <a class="btn_pixel" href="https://wa.link/9fy2iq" target="_blank"> Comprar <span class="icon-bag"></span> </a>
             </div>
         </section>
         <section class="bannerInvitation">
@@ -53,20 +53,51 @@
                 <div class="containerBannerInvitation">
                     <h3>Hey, 🤙🏼 comencemos hoy</h3>
                     <p>
-                        Sentémonos y tengamos una charla, o tomémonos un café virtual y hablemos de tus necesidades
+                        Sentémonos y tengamos una charla, o tomémonos un café virtual y hablemos de lo que negocio necesita.
                     </p>
+                    <a href="https://wa.link/u8a270" class="btn_pixel" target="_blank"><span class="icon-tel"></span> Hablemos</a>
+                </div>
+            </div>
+        </section>
+        <section class="containerBeneficios maxWidth">
+            <div class="headerBeneficios">
+                <h3>¿BENEFICIOS DE TU SITIO WEB?</h3>
+                <p>
+                    En <strong>Pixel Agency</strong>puedes obtener tu sitio Web o tienda online optimizada y lista para vender, 
+                    aumenta tus ventas con una tienda en línea o presenta tu negocio con una página Web y llega a miles de 
+                    usuarios de tu interés, tenemos los mejores precios y los mejores tiempos de entrega, Adicional te damos 
+                    una asesoría completa de Marketing Digital y como puedes poner tu tienda a facturar desde el minuto 1 de 
+                    lanzamiento.
+                </p>
+                <a href="https://wa.link/u8a270" target="_blank" class="btn_pixel">Contáctanos</a>
+            </div>
+            <div class="contentBeneficios">
+                <div class="cont_ben">
+                    <h2>ADAPTABILIDAD</h2>
+                    <P>Todas las páginas web y tiendas en línea serán adaptables y funcionales en cualquier dispositivo.</P>
+                </div>
+                <div class="cont_ben">
+                    <h2>PRODUCTOS ILIMITADOS</h2>
+                    <P>Puedes ajustar tu inventario y los productos o servicios que vendas de forma fácil y rápida.</P>
+                </div>
+                <div class="cont_ben">
+                    <h2>Asesoría personalizada</h2>
+                    <P>Una vez entregado el sitio web o tienda en línea te asesoramos en el manejo del sitio web y puedas comenzar a dar el primer paso en la venta.</P>
+                </div>
+                <div class="cont_ben">
+                    <h2>INTEGRACIÓN REDES SOCIALES</h2>
+                    <P>Integramos tu tienda online con el Marketplace de Facebook e instagram para que puedas tener el engranaje perfecto entre tienda y redes sociales.</P>
                 </div>
             </div>
         </section>
         <section class="containerServices maxWidth">
             <div class="containerExplicationServices">
-                <span>Mis habilidades</span>
-                <h2>Inovación y Resultados</h2>
+                <span>+ Visibilidad + Ventas</span>
+                <h2>INNOVACIÓN y Resultados</h2>
                 <p>
-                    Desarrollo productos digitales hace más de<strong> <?php echo $dateWork ?> Años </strong>
-                    y se que te puedo ayudar a potencializar tu presencia digital.
+                    Desarrollo productos digitales hace más de <strong> <?php echo $dateWork ?> Años </strong>
+                    con mi experiencia y tu idea podemos hacer grandes cosas para tu negocio.
                 </p>
-                <a href="servicios.php"> Ver más</a>
             </div>
             <div class="servicesIcons">
                 <ul>
@@ -75,9 +106,10 @@
                             <figure>
                                 <img src="assets/img/Web Design Icon.png" alt="Diseño Web">
                             </figure>
-                            <h3>Diseño </br> Web</h3>
+                            <h3>POSICIONAMIENTO </br> EN GOOGLE</h3>
                             <p>
-                                Páginas Web, Tiendas virtuales, Blogs, LandingPage, template.
+                                Google es la plataforma #1 en el mundo en navegación, haz que tu página web o tienda virtual
+                                sea más fácil de encontrar para tus potenciales clinetes.
                             </p>
                         </div>
                     </li>
@@ -89,12 +121,13 @@
                             <div class="containerServices">
                             <h3>Marketing Digital</h3>
                             <p>
-                                Creamos estrategias para que tu marca tenga un impacto en internet.  
+                                Creamos campañas impactantes y segmentadas para llegarle a tu público objetivo de manera 
+                                eficiente y precisa.  
                             </p>
                             </div>
                         </div>
                     </li>
-                    <li>
+                    <!-- <li>
                         <div class="contentService">
                             <figure>
                                 <img src="img/Branding Icon.png" alt="Branding PNG">
@@ -104,7 +137,7 @@
                                 Diseñamos y estructuramos la identidad de tu marca sostenible en el tiempo.
                             </p>
                         </div>
-                    </li>
+                    </li> -->
                     <li>
                         <div class="contentService">
                             <figure>
@@ -112,11 +145,13 @@
                             </figure>
                             <h3>Creación de Contenido</h3>
                             <p>
-                                No es lo que dices, es cómo lo dices, contenido que genere valor y resultados.
+                                ¿Tu contenido es de alto valor o generico? Te asesoramos y guiamos en el proceso del tipo de 
+                                contenido que a tu marca más le funciona con estratégias en tendencia y aplicandolo para que 
+                                vuelva viral tu contenido.
                             </p>
                         </div>
                     </li>
-                    <li>
+                    <!-- <li>
                         <div class="contentService">
                             <figure>
                                 <img src="img/Cloud Icon.png" alt="Cloud Service">
@@ -126,7 +161,7 @@
                                 Alquilamos servicios de alojamiento y Hosting para tu sitio web o Aplicación.
                             </p>
                         </div>
-                    </li>
+                    </li> -->
                     <li>
                         <div class="contentService">
                             <figure>
@@ -134,7 +169,8 @@
                             </figure>
                             <h3>Fotografia </br> Producto</h3>
                             <p>
-                                Las imagenes venden, te ayudamos a mostrar tus productos de manera profesional.
+                                Las imagenes venden, te ayudamos a mostrar tus productos de manera profesional y optimizado
+                                para usarlas en redes sociales y cualquier medio digital.
                             </p>
                         </div>
                     </li>
@@ -143,9 +179,23 @@
                             <figure>
                                 <img src="img/App Icon.png" alt="Software">
                             </figure>
-                            <h3>Software a </br>la Medida</h3>
+                            <h3>Instagram y Facebook Shop</h3>
                             <p>
-                                ¿Necesitas una App nativa o web? Te ayudamos a programarla
+                                Integramos toda tu tienda Online con las principales redes sociales, creando un engranaje
+                                perfecto tu sistema web y tus redes sociales, aumentando tu visibilidad, ventas y más.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contentService">
+                            <figure>
+                                <img src="img/App Icon.png" alt="Software">
+                            </figure>
+                            <h3>Meta </br> Ads</h3>
+                            <p>
+                                Una vez integrado toda la tienda virtual con las redes sociales podemos crear campañas
+                                poderosas en Meta, la plataforma con millones de usuarios recurrentes, en Instagram y Facebook,
+                                haciendolo de manera Inteligente.
                             </p>
                         </div>
                     </li>
@@ -163,20 +213,22 @@
                         <div class="body_promo">
                             <ul>
                                 <li><span>✔</span>Diseño Estandar</li>
-                                <li><span>✔</span>Máximo 3 secciones</li>
-                                <li><span>✔</span>Conexión Redes Sociales</li>
+                                <li><span>✔</span>Máximo 4 secciones</li>
+                                <li><span>✔</span>Integración Facebook - Instagram</li>
                                 <li><span>✔</span>Optimización y SEO</li>
                                 <li><span>✔</span>Gestión y Administración</li>
-                                <li><span>✔</span>Integración diseño de Redes</li>
+                                <li><span>✔</span>Integración WhatsApp Business</li>
                             </ul>
                         </div>
                         <div class="footer_promo">
-                            <a href="hosting">Necesito algo más pro</a>
                             <p>Desde</p>
                         </div>
                     </div>
                     <div class="price_promo">
                         <p class="font_bold">$300/USD</p>
+                    </div>
+                    <div class="contentMorePro">
+                        <a href="https://wa.link/pkyvtf" target="_blank">Necesito algo más pro</a>
                     </div>
                 </div>
                 <div class="promos">
@@ -187,27 +239,30 @@
                         <div class="body_promo">
                             <ul>
                                 <li><span>✔</span>Diseño Estandar</li>
-                                <li><span>✔</span>Montaje máximo 25 productos</li>
-                                <li><span>✔</span>Conexión Redes Sociales</li>
+                                <li><span>✔</span>Montaje Productos</li>
+                                <li><span>✔</span>Integración con Facebook - Instagram</li>
                                 <li><span>✔</span>Pasarela de pago</li>
                                 <li><span>✔</span>Optimización y SEO</li>
                                 <li><span>✔</span>Gestión y administración de la tienda</li>
-                                <li><span>✔</span>Certificado SSl por 3 meses</li>
+                                <li><span>✔</span>Certificado SSl</li>
+                                <li><span>✔</span>Integración WhatsApp Business</li>
                             </ul>
                         </div>
                         <div class="footer_promo">
-                            <a href="hosting">Necesito algo más pro</a>
                             <p>Desde</p>
                         </div>
                     </div>
                     <div class="price_promo">
                         <p>$600/USD</p>
                     </div>
+                    <div class="contentMorePro">
+                        <a href="https://wa.link/ki9kme" target="_blank">Necesito algo más pro</a>
+                    </div>
                 </div>
                 <div class="promos">
                     <div class="promo1">
                         <div class="header_promo1">
-                            <h2>Hosting y Dominio</h2>
+                            <h2>Hosting, Dominio y SSL</h2>
                         </div>
                         <div class="body_promo">
                             <ul>
@@ -221,19 +276,22 @@
                                 <li><span>✔</span>Soporte y aseosria 24/7</li>
                                 <li><span>✔</span>2 base de datos</li>
                                 <li><span>✔</span>Cpanel Administrable</li>
+                                <li><span>✔</span>Certificado de Seguridad</li>
                             </ul>
                         </div>
                         <div class="footer_promo">
-                            <a href="hosting">Necesito algo más pro</a>
                             <p>Desde</p>
                         </div>
                     </div>
                     <div class="price_promo">
                         <p>$100/USD - Año</p>
                     </div>
+                    <div class="contentMorePro">
+                        <a href="https://wa.link/pkyvtf" target="_blank">Necesito algo más pro</a>
+                    </div>
                 </div>
             </div>
-            <a class="Btn_host" href="hosting.php">Planes de Hosting y Dominio</a>
+            <a class="btn_pixel" href="https://wa.link/9fy2iq" target="_blank">Comprar</a>
         </section>
         <section>
             <div class="contentClients">
