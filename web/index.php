@@ -19,7 +19,7 @@
                 <div class="ContSlider">
                     <div class="container_slider">
                         <?php foreach ($dataCarpeta as $key => $value): 
-                            $nameClient = substr($value, 0, -4);?>
+                            $nameClient = substr($value, 0, -9);?>
                             <a href="./<?php echo $nameClient?> ">
                                 <div class="container_slider_img">
                                     <figure>
@@ -63,7 +63,7 @@
             <div class="headerBeneficios">
                 <h3>¿BENEFICIOS DE TU SITIO WEB?</h3>
                 <p>
-                    En <strong>Pixel Agency</strong>puedes obtener tu sitio Web o tienda online optimizada y lista para vender, 
+                    En <strong>Pixel Agency</strong> puedes obtener tu sitio Web o tienda online <strong>optimizada y lista para vender,</strong> 
                     aumenta tus ventas con una tienda en línea o presenta tu negocio con una página Web y llega a miles de 
                     usuarios de tu interés, tenemos los mejores precios y los mejores tiempos de entrega, Adicional te damos 
                     una asesoría completa de Marketing Digital y como puedes poner tu tienda a facturar desde el minuto 1 de 
@@ -309,7 +309,7 @@
                             <figure><img src="./assets/img/Marcas/santorini.png" alt=""></figure>
                         </li>
                         <li>
-                            <figure><img src="./assets/img/Marcas/jakofashion.png" alt=""></figure>
+                            <figure><img src="./assets/img/Marcas/munsus.webp" alt="Munsus"></figure>
                         </li>
                         <li>
                             <figure><img src="./assets/img/Marcas/sap.png" alt="SAP miami"></figure>
@@ -322,7 +322,7 @@
                 </div>
                 <div class="conteinerImageOffice">
                     <figure>
-                        <img src="./assets/img/fotoOficna.png" alt="Oficina Pixel Agency">
+                        <img src="./assets/img/fotoOficna.webp" alt="Oficina Pixel Agency">
                     </figure>
                 </div>
             </div>
@@ -379,11 +379,11 @@
         <section class="slideClients">
             <div class="containerSlider">
                 <?php foreach ($dataCarpeta as $key => $value): 
-                    $nameCompress = substr($value, 0, -4) ?>
+                    $nameCompress = substr($value, 0, -9) ?>
                         <div class='containerImage'>
                             <div class='contentImage'> 
                                 <a href="./<?php echo $nameCompress ?>">
-                                    <img src="../assets/img/slider/<?php echo $value ?>" alt="">
+                                    <img src="assets/img/slider/<?php echo $value ?>" alt="<?php  echo $nameClient?>">
                                 </a>
                             </div>
                         </div>

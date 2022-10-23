@@ -66,7 +66,7 @@
             </div>
             <div class="contact">
                 <span></span>
-                <a href="contacto.php">Contactanos</a>
+                <a href="#">Contactanos</a>
             </div>
         </div>
     </div>

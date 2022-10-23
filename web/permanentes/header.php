@@ -50,7 +50,7 @@
         <div class="containerItemsHeader">
             <a href="../" class="linkLogo">
                 <figure class="icono_pixel"> 
-                    <img src="../assets/img/logo pixel agency.png" alt="Pixel Agency">
+                    <img src="../assets/img/logo pixel agency.webp" alt="Pixel Agency">
                 </figure>
             </a>
             <div class="menu_btn" id="btn_menu">

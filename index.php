@@ -26,15 +26,15 @@
 </head>
 <body>
     <header>
-        <img src="assets/img/logo final principal.png" alt="pixel Agency">
+        <img src="assets/img/logoPixelAgency.webp" alt="pixel Agency">
     </header>
     <section class="containerHome">
         <div class="webDesignSection ">
             <div class="contentWebDesignContent">
                 <div class="containerGalleryImage">
                     <?php foreach ($dataCarpeta as $key => $value): 
-                        $nameClient = substr($value, 0, -3);?>
-                        <a href="<?php echo $nameClient?>php ">
+                        $nameClient = substr($value, 0, -9);?>
+                        <a href="">
                             <div class="container_slider_img">
                                 <figure>
                                     <img src="assets/img/slider/<?php echo $value ?>" alt="<?php  echo $nameClient?>">
@@ -61,7 +61,7 @@
             </div>
             <div class="contentDronevideo">
                 <figure class="logo_PixelVisual">
-                    <img src="assets/img/logoDrone.png" alt="Drone">
+                    <img src="assets/img/logoDrone.webp" alt="Drone">
                 </figure>
                 <div class="contentDescPixelVisual">
                     <h2>Pixel AudioVisual</h2>

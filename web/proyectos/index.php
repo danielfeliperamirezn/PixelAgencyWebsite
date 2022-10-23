@@ -15,7 +15,7 @@
         <h2>ÚLTIMOS PROYECTOS</h2>
         <div class="content_works">
             <?php foreach ($dataCarpeta as $key => $value) : 
-            $nameCompress = substr($value, 0, -4);?>
+            $nameCompress = substr($value, 0, -9);?>
                 <div class="containerProducts">
                     <a href="../<?php echo $nameCompress ?>" tarjet="_blank">
                         <figure>

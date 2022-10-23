@@ -1,4 +1,10 @@
 @media screen and (max-width: 480px) {
+  p {
+    line-height: 21px;
+  }
+  h3, h2 {
+    line-height: 30px;
+  }
   .containerText {
     padding-top: 20%; }
 
@@ -138,13 +144,19 @@
     footer .container_information_pixel .container_number {
       margin-top: 4em !important;
       width: 100% !important;
-      padding-left: 7% !important; }
+      padding-left: 7% !important; 
+    }
   footer .piePixel {
     display: block !important;
-    text-align: center; }
-
+    text-align: center; 
+  }
+  footer {
+    padding: 1em;
+    box-sizing: content-box;
+  }
   .containerWhatsapp {
-    right: 15% !important; }
+    display: none;
+  }
 
   .section_works_pixel .content_works {
     display: block; }
@@ -288,6 +300,15 @@
 
   .containerAsesoria {
     width: 85%;
-    bottom: 3%; } }
+    bottom: 3%; } 
+    
+    .contentBeneficios .cont_ben {
+      width: 100%;
+      padding: 2em 1em;
+    }
+    .containerCompra::before {
+      left: 0%;
+    }
+  }
 
 /*# sourceMappingURL=responsive.css.map */
