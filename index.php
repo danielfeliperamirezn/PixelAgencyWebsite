@@ -18,7 +18,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" type="image/png" href="img/logo pixel agency.png" sizes="64x64">
+    <link rel="icon" type="image/png" href="./assets/img/logo pixel agency.png" sizes="64x64">
     <link rel="stylesheet" href="assets/css/styleHome.css">
     <link rel="stylesheet" media="(max-width:800px)" href="assets/css/responsiveHome.css">
     <link rel="stylesheet" href="assets/css/styleFonts.css">
