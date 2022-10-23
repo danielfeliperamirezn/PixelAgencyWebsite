@@ -12,3 +12,6 @@
 .logo_PixelWeb, .logo_PixelVisual {
     width: 20% !important;
 }
+.containerHome .webDesignSection .contentWebDesignContent .containerGalleryImage a {
+    width: 49%;
+}

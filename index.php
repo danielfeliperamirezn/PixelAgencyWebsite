@@ -26,7 +26,9 @@
 </head>
 <body>
     <header>
-        <img src="assets/img/logoPixelAgency.webp" alt="pixel Agency">
+        <figure>
+            <img src="assets/img/logoPixelAgency.webp" alt="pixel Agency">
+        </figure>
     </header>
     <section class="containerHome">
         <div class="webDesignSection ">
@@ -45,7 +47,7 @@
                 </div>
                 <div class="linkAnTextwebDesign">
                     <figure class="logo_PixelWeb">
-                        <img src="assets/img/logo pixel agency.png" alt="Pixel Agency">
+                        <img src="assets/img/logoPixelAgency.webp" alt="Pixel Agency">
                     </figure>
                     <div class="contentDescPixelWeb">
                         <h2>Pixel Web</h2>

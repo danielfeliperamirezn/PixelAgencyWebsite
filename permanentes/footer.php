@@ -51,7 +51,7 @@
     </div>
     <div class="container_information_pixel">
         <figure>
-            <img src="../assets/img/logo final principal.png" alt="Pixel Agency">
+            <img src="./assets/img/logoFooter.webp" alt="Pixel Agency">
         </figure>
         <div class="text">
             <h3>para el mundo</h3>
