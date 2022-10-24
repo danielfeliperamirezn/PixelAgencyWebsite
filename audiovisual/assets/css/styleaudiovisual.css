@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "MontserratBlack";
+    src: url("../fuente/Montserrat-Black.ttf");
+}
+@font-face {
+    font-family: "MontserratLight";
+    src: url("../fuente/Montserrat-Light.ttf");
+}
+.slick-initialized .slick-slide {
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, a, button {
+    font-family: "MontserratBlack";
+}
+
+h3, h2 {
+    color: #db2f5f; 
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+h2 {
+    color: #fc4d4e;
+    text-transform: uppercase;
+    text-align: center;
+}
+.contentButtons {
+    text-align: center;
+    box-shadow: 0 0px 90px #d2d2d2;
+    padding: 1em 8em;
+    border-radius: 15px;
+}
+.btn_pixel {
+    border: 2px solid #123FD8;
+    text-transform: uppercase;
+    padding: 1em 3em;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    color: #123FD8;
+  }
+  .btn_pixel::after {
+    content: "TRABAJEMOS JUNTOS";
+    background-color: #123FD8;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn_pixel:hover:after {
+    left: 0;
+    transition: 0.2s all;
+    color: white;
+  }

@@ -27,6 +27,17 @@
     gtag('config', 'UA-118723492-2');
     </script>-->
     <!-- Global site tag (gtag.js) - Google Ads: 10810068280 -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C21EJEBYZX"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-C21EJEBYZX');
+    </script>
+
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10810068280"></script>
     <script>
       window.dataLayer = window.dataLayer || [];

@@ -70,7 +70,7 @@
                     <p alt="Videos con Drone, Contenido AudioVisual, Videos para propiedades,
 Videos promocionales Medellín, Creación de contenido.">Videos con Drone, Contenido AudioVisual, Videos para propiedades,
 Videos promocionales Medellín, Creación de contenido.</p>
-                    <a href="/pixelagency.php" class="btn_pixel">conocer más</a>
+                    <a href="audiovisual" class="btn_pixel">conocer más</a>
                 </div>
             </div>
         </div>
