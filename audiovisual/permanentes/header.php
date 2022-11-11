@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/styleaudiovisual.css">
-    <link rel="stylesheet" href="./assets/css/animation.css">
-    <link rel="stylesheet" href="./assets/css/styleFonts.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <link rel="stylesheet" href="../assets/css/styleAudiovisual.css">
+    <link rel="stylesheet" href="../assets/css/animation.css">
+    <link rel="stylesheet" href="../assets/css/styleFonts.css">
+    <link rel="stylesheet" href="../assets/assets/css/responsive.css">
+
     <title>Pixel audiovisual</title>
 
     <meta name="description" content="Somos Lideres en diseño y desarrollo web y marketing digital, tiendas virtuales y posicionamiento SEO, Contáctanos.">
     <meta name="keywords" content="Diseño web medellin, marketing ditial, publicidad digital, agencia digital medellin, soluciones web, páginas web medellin, redes sociales, agencia de marketing digital, agencia de marketing, seo, seo medellin, necesito una página web, ecomerce, tiendasvirutalesmedellin">
+
 </head>
 <body>
     <header>
