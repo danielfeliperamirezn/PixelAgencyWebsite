@@ -1,0 +1,24 @@
+@keyframes topDown {
+  0% {
+    top: 20%;
+  }
+  50% {
+    top: 15%;
+  }
+  100% {
+    top: 20%;
+  }
+}
+@keyframes topDown2 {
+  0% {
+    bottom: 50%;
+  }
+  50% {
+    bottom: 45%;
+  }
+  100% {
+    bottom: 50%;
+  }
+}
+
+/*# sourceMappingURL=animation.css.map */

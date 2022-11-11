@@ -1,67 +1,873 @@
-@font-face {
-    font-family: "MontserratBlack";
-    src: url("../fuente/Montserrat-Black.ttf");
-}
-@font-face {
-    font-family: "MontserratLight";
-    src: url("../fuente/Montserrat-Light.ttf");
-}
-.slick-initialized .slick-slide {
-    outline: none;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, a, button {
-    font-family: "MontserratBlack";
+.colorStyle {
+  color: #fc4d4e;
 }
 
-h3, h2 {
-    color: #db2f5f; 
+a {
+  text-decoration: none;
 }
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    width: 100%;
-    height: 100%;
+
+a span {
+  padding: 0 5px;
 }
-h2 {
-    color: #fc4d4e;
-    text-transform: uppercase;
-    text-align: center;
+
+img {
+  max-width: 100%;
 }
-.contentButtons {
-    text-align: center;
-    box-shadow: 0 0px 90px #d2d2d2;
-    padding: 1em 8em;
-    border-radius: 15px;
+
+@font-face {
+  font-family: "MontserratLight";
+  src: url("../fuente/Montserrat-Light.ttf");
 }
+@font-face {
+  font-family: "MontserratBlack";
+  src: url("../fuente/Montserrat-Black.ttf");
+}
+p, article, span, li, ul,
+input, textarea, select, strong {
+  font-family: "MontserratLight" !important;
+}
+
+h1, h2, h3, h4, h5, h6, a, button, alt {
+  font-family: "MontserratBlack";
+}
+
+.maxWidth {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
 .btn_pixel {
-    border: 2px solid #123FD8;
-    text-transform: uppercase;
-    padding: 1em 3em;
-    text-decoration: none;
-    position: relative;
-    overflow: hidden;
-    display: inline-flex;
-    color: #123FD8;
-  }
-  .btn_pixel::after {
-    content: "TRABAJEMOS JUNTOS";
-    background-color: #123FD8;
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    transition: 0.2s all;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .btn_pixel:hover:after {
-    left: 0;
-    transition: 0.2s all;
-    color: white;
-  }
+  border: 2px solid #123FD8;
+  text-transform: uppercase;
+  padding: 1em 4em;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  color: #123FD8;
+}
+
+.btn_pixel::after {
+  content: "TRABAJEMOS JUNTOS";
+  background-color: #123FD8;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  transition: 0.2s all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_pixel:hover:after {
+  left: 0;
+  transition: 0.2s all;
+  color: white;
+}
+
+.containerAsesoria {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 35%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 999999;
+  backdrop-filter: blur(7px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 22px #f3f3f3;
+}
+
+.containerAsesoria p {
+  text-transform: uppercase;
+}
+
+.containerAsesoria p span {
+  color: #e2466d !important;
+  font-weight: bold;
+}
+
+.containerAsesoria a {
+  padding: 0.3em;
+  font-size: 2em;
+  margin: 0 10px;
+}
+
+.containerAsesoria a .icon-whatsapp {
+  color: green !important;
+}
+
+.containerAsesoria a .icon-whatsapp:hover {
+  color: #361dba;
+}
+
+.containerAsesoria a .icon-phone {
+  color: #361dba !important;
+}
+
+.containerAsesoria a .icon-phone:hover {
+  color: #361dba;
+}
+
+/* Header */
+header {
+  margin: 0 auto;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(7px);
+  z-index: 9999999;
+}
+
+header .containerItemsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 1em;
+}
+header .containerItemsHeader .linkLogo .icono_pixel img {
+  width: 50px;
+}
+header .menu_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .menu_btn p {
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+header .menu_btn .containerSimbol {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  margin: 0 1em;
+}
+header .menu_btn .containerSimbol span {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background-color: #e20c4c;
+  transform: 0.5s all;
+  transition: 0.2s all;
+}
+header .menu_btn .containerSimbol :hover > span {
+  transform: scale(1.5);
+}
+header .menu_btn .containerSimbol .pixelLeftTop {
+  top: 0;
+  left: 0;
+}
+header .menu_btn .containerSimbol .pixelRightTop {
+  top: 0;
+  right: 0;
+}
+header .menu_btn .containerSimbol .pixelLeftBottom {
+  bottom: 0;
+  left: 0;
+}
+header .menu_btn .containerSimbol .pixelRightBottom {
+  bottom: 0;
+  right: 0;
+}
+header .btnCotizacion {
+  display: none;
+}
+
+header .menu_btn .containerSimbol:hover > span {
+  border-radius: 100%;
+  transition: 0.2s all;
+}
+
+.widthMenu {
+  top: 0%;
+}
+
+.menu_principal {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  top: -1000%;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s all;
+  z-index: 999999999;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+}
+
+.menu_principal .close_menu {
+  text-align: center;
+  padding: 1em 0 0;
+  cursor: pointer;
+}
+
+.menu_principal .close_menu span {
+  color: #e2466d !important;
+}
+
+.menu_principal .container_menu_principal nav ul .cont_trabajos {
+  background-color: #0c4ce2;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu_principal .container_menu_principal nav ul .cont_trabajos:before {
+  content: "";
+  position: absolute;
+  right: -15px;
+  bottom: -30%;
+  width: 100%;
+  height: 100%;
+  background-image: url(../audiovisual/assets/img/menu/1-min.webp);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  transition: 0.5s all;
+}
+
+.menu_principal .container_menu_principal nav ul .cont_trabajos:hover:before {
+  bottom: -20%;
+  transition: 0.5s all;
+}
+
+.menu_principal .container_menu_principal nav ul .cont_history {
+  background-color: #dbdbdb;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu_principal .container_menu_principal nav ul .cont_history:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -20%;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/menu/2-min.webp);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  transition: 0.5s all;
+}
+
+.menu_principal .container_menu_principal nav ul .cont_history:hover:before {
+  bottom: -15%;
+  transition: 0.5s all;
+}
+
+.menu_principal .container_menu_principal nav ul .cont_Servicios {
+  background-color: #83167e;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu_principal .container_menu_principal nav ul .cont_Servicios:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -37%;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/menu/3-min.webp);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  transition: 0.5s all;
+}
+
+.menu_principal .container_menu_principal nav ul .cont_Servicios:hover:before {
+  bottom: -30%;
+  transition: 0.5s all;
+}
+
+.menu_principal .container_menu_principal nav ul .cont_Blog {
+  background-color: #fc4d4e;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu_principal .container_menu_principal nav ul .cont_Blog:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -37%;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  transition: 0.5s all;
+}
+
+.menu_principal .container_menu_principal nav ul .cont_Blog:hover:before {
+  bottom: -30%;
+  transition: 0.5s all;
+}
+
+.menu_principal .container_menu_principal nav ul a {
+  display: inline-block;
+  background-color: white;
+  padding: 1em;
+  margin: 1em;
+  width: 200px;
+  height: 300px;
+  position: relative;
+  transform: 0.5s all;
+}
+
+.menu_principal .container_menu_principal nav ul a .desc_trabajos {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 80%;
+}
+
+.menu_principal .container_menu_principal nav ul a .desc_trabajos p {
+  color: white !important;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  line-height: 25px;
+}
+
+.menu_principal .container_menu_principal nav ul a li {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  transition: 0.5s all;
+}
+
+.menu_principal .container_menu_principal nav ul a li p {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  margin: 0;
+  color: white !important;
+}
+
+.menu_principal .container_menu_principal nav ul a li span {
+  font-size: 0.7em;
+  color: white !important;
+}
+
+.menu_principal .container_menu_principal nav ul a li:before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 0%;
+  background-color: #e20c4c;
+  top: 0;
+  left: 0;
+  transition: 0.5s all;
+}
+
+.menu_principal .container_menu_principal nav ul a .prox {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  background-color: black;
+  border-radius: 15px;
+  padding: 0.5em 0.7em;
+  color: white !important;
+  font-size: 0.7em;
+}
+
+.menu_principal .container_menu_principal nav ul a:hover {
+  box-shadow: 0 0 15px #666666;
+  transform: 0.5s all;
+  transition: 0.5s all;
+}
+
+.menu_principal .container_menu_principal nav ul a:hover > li {
+  padding-left: 2em;
+  transition: 0.5s all;
+}
+
+.menu_principal .container_menu_principal nav ul a:hover > li:before {
+  height: 50%;
+  transition: 0.5s all;
+}
+
+.menu_principal .containerButtons {
+  text-align: center;
+}
+
+.menu_principal .containerButtons p {
+  color: white !important;
+}
+
+.menu_principal .containerButtons .social_media ul {
+  padding: 0;
+  margin: 0;
+}
+
+.menu_principal .containerButtons .social_media ul li {
+  display: inline-block;
+  margin: 1em;
+}
+
+.menu_principal .containerButtons .social_media ul li a {
+  font-size: 1.8em;
+  color: white;
+}
+
+.containerWhatsapp {
+  position: fixed;
+  bottom: 5%;
+  right: 1%;
+  width: 10%;
+  text-align: right;
+  z-index: 999999;
+}
+
+.containerWhatsapp a {
+  background: linear-gradient(135deg, #2612aa 0%, #0c4ce2 100%);
+  color: white !important;
+  padding: 0.5em;
+  font-size: 2em;
+  border-radius: 50%;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 10em;
+  position: relative;
+}
+
+footer .container_social_media {
+  position: absolute;
+  left: 0;
+  bottom: 55px;
+  height: auto;
+  width: 4%;
+  background-color: #0e47de;
+  display: flex;
+  justify-content: center;
+}
+
+footer .container_social_media ul {
+  margin: 0;
+  text-align: left;
+  padding: 2em 0;
+}
+
+footer .container_social_media ul li {
+  padding: 1em;
+}
+
+footer .container_social_media ul li a {
+  font-size: 2em;
+  color: white;
+  text-shadow: 1px 0px 1px black;
+}
+
+footer .container_social_media ul li a:hover {
+  color: #fc4d4e;
+}
+
+footer .container_information_pixel {
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+  padding: 4em 0;
+  padding-left: 3%;
+}
+
+footer .container_information_pixel figure {
+  width: 20%;
+  text-align: right;
+}
+
+footer .container_information_pixel figure img {
+  width: 65%;
+}
+
+footer .container_information_pixel .text {
+  width: 20%;
+  padding-left: 7%;
+  font-size: 0.8em;
+}
+
+footer .container_information_pixel .text h3 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+footer .container_information_pixel .text ul {
+  padding: 0;
+}
+
+footer .container_information_pixel .text ul li {
+  padding: 0.5em 0;
+}
+
+footer .container_information_pixel .text ul li a {
+  color: black;
+  letter-spacing: 1px;
+}
+
+footer .container_information_pixel .container_number {
+  width: 20%;
+  font-size: 0.8em;
+}
+
+footer .container_information_pixel .container_number a {
+  color: black;
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+
+footer .container_information_pixel .container_number .contact {
+  margin-top: 1em;
+}
+
+footer .piePixel {
+  position: relative;
+  background-color: #0e47de;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5em 0;
+}
+
+footer .piePixel p {
+  color: white !important;
+  font-weight: bold;
+  font-size: 0.8em;
+  text-shadow: 1px 0px 1px black;
+}
+
+/* CONTACTO */
+.containerContact {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-top: 8em;
+  margin-bottom: 11em;
+}
+
+.containerContact .lef_content_contact {
+  width: 40%;
+  box-sizing: border-box;
+  padding: 3em 6em;
+}
+
+.containerContact .lef_content_contact span {
+  color: #83167e !important;
+  position: relative;
+}
+
+.containerContact .lef_content_contact span:before {
+  content: "";
+  position: absolute;
+  left: -61%;
+  top: 50%;
+  width: 20%;
+  height: 2px;
+  background-color: #83167e;
+  animation: movimientoLinea 5s infinite;
+}
+
+.containerContact .lef_content_contact h2 {
+  padding: 2em 0;
+  text-transform: uppercase;
+}
+
+.containerContact .lef_content_contact p {
+  letter-spacing: 2px;
+  font-size: 0.8em;
+}
+
+.containerContact .right_content_contact {
+  width: 60%;
+  padding: 5em;
+  box-sizing: border-box;
+  background: linear-gradient(137.86deg, #4a00d8, #7512b7 23.75%, #fc4d4e);
+  transition: 0.5s all;
+}
+
+.containerContact .right_content_contact form h2 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.containerContact .right_content_contact form input, .containerContact .right_content_contact form textarea {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  padding: 1em;
+  color: white;
+  margin: 1em;
+  width: 40%;
+  outline: none;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.containerContact .right_content_contact form input::placeholder, .containerContact .right_content_contact form textarea::placeholder {
+  color: white !important;
+}
+
+.containerContact .right_content_contact p {
+  color: white !important;
+}
+
+.containerContact .right_content_contact p span {
+  color: white !important;
+}
+
+.container_Form h2 {
+  font-size: 1.8em;
+  padding: 1em 0;
+  color: #fc4d4e;
+  text-transform: uppercase;
+}
+
+.container_Form .contentDataForm {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.container_Form .contentDataForm .containerDescForm, .container_Form .contentDataForm .formContactGlobal {
+  width: 50%;
+}
+
+.container_Form .contentDataForm .formContactGlobal {
+  text-align: center;
+  position: relative;
+}
+
+.container_Form .contentDataForm .formContactGlobal .containerError {
+  background-color: white;
+  box-shadow: #ebebeb 0px 0px 15px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em 0.3em;
+  box-sizing: border-box;
+  display: none;
+  font-size: 0.8em;
+}
+
+.container_Form .contentDataForm .formContactGlobal .containerError p {
+  color: #e2466d !important;
+  text-transform: uppercase;
+}
+
+.container_Form .contentDataForm .formContactGlobal .container_Loader {
+  display: none;
+  backdrop-filter: blur(7px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #361dba;
+}
+
+.container_Form .contentDataForm .formContactGlobal form input, .container_Form .contentDataForm .formContactGlobal form textarea {
+  border: none;
+  border-bottom: 1px solid #db2f5f;
+  background-color: transparent;
+  padding: 0.5em;
+  color: #db2f5f;
+  margin: 1em;
+  outline: none;
+  display: inline-block;
+  vertical-align: bottom;
+  resize: none;
+}
+
+.container_Form .contentDataForm .formContactGlobal form input::placeholder, .container_Form .contentDataForm .formContactGlobal form textarea::placeholder {
+  color: #361dba !important;
+}
+
+.container_Form .contentDataForm .formContactGlobal form .container_select select {
+  width: auto;
+  padding: 0.5em 1em;
+  width: 72%;
+  border: none;
+  margin: 1em;
+  border-bottom: 1px solid #83167e;
+  color: #361dba;
+  outline: none;
+}
+
+.container_Form .contentDataForm .formContactGlobal form .container_select select:focus {
+  outline: none;
+}
+
+.container_Form .contentDataForm .formContactGlobal form button {
+  background-color: #db2f5f;
+  border: 2px solid #db2f5f;
+  color: white;
+  margin: 1em;
+  padding: 0.3em 1em;
+  transition: all 0.5s ease 0s;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.container_Form .contentDataForm .formContactGlobal form button:hover {
+  background-color: white;
+  color: #db2f5f;
+}
+
+.container_Form .contentDataForm .containerDescForm p {
+  line-height: 25px;
+}
+
+.headertop {
+  padding-top: 15%;
+  position: relative;
+}
+.headertop .containerHeader h1 {
+  font-size: 4em;
+}
+.headertop .containerHeader .containerButtons a {
+  margin: 2em 0;
+}
+.headertop ~ ::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 15%;
+  top: 20%;
+  background: #123FD8;
+  border-radius: 100%;
+  animation: topDown 5s infinite;
+}
+.headertop ~ ::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 15%;
+  bottom: 50%;
+  background: #fc4d4e;
+  border-radius: 100%;
+  animation: topDown2 5s infinite;
+}
+
+.contentVideo {
+  margin-top: 3em;
+}
+.contentVideo .videoPromo h2 {
+  color: #fc4d4e;
+  padding: 1em;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.containerBanner1 {
+  margin-top: 5em;
+  padding: 3em;
+  background-image: url(../img/banner1.webp);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.containerBanner1 .contentBanner1 {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 50%;
+  padding: 2em 6em;
+}
+.containerBanner1 .contentBanner1 p {
+  padding: 0 0 1em 0;
+}
+.containerBanner1 .contentBanner1 h2 {
+  color: #fc4d4e;
+  padding: 1em;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 1em 0;
+}
+
+.contentRealEstate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contentRealEstate .contentReal {
+  width: 48%;
+  padding: 1em;
+  margin: 2em 0;
+}
+.contentRealEstate .contentReal .containerIframe {
+  position: relative;
+}
+.contentRealEstate .contentReal .containerIframe ::after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  background-color: #123FD8;
+  bottom: -5%;
+  left: -5%;
+}
+.contentRealEstate .contentReal h2 {
+  color: #fc4d4e;
+  padding: 1em;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 1em 0;
+}
+.contentRealEstate .contentReal h2 alt {
+  color: #123FD8;
+}
+.contentRealEstate .contentReal p {
+  padding: 1em 0;
+}
+.contentRealEstate .contentReal a {
+  margin-top: 1em;
+}
+.contentRealEstate .contentReal .containerImage {
+  width: 100%;
+  padding: 0;
+}
+.contentRealEstate .contentReal .containerImage .contentImage {
+  background-size: cover;
+  background-position: right;
+  height: 400px;
+  margin: 1em;
+}
+.contentRealEstate .contentReal .containerImage .contentImage1 {
+  background-image: url(../img/state/1.webp);
+}
+.contentRealEstate .contentReal .containerImage .contentImage2 {
+  background-image: url(../img/state/2.webp);
+}
+
+.containerArticle .contentArticle article {
+  font-size: 1.2em;
+  text-align: center;
+}
+.containerArticle .contentArticle article alt {
+  color: #fc4d4e;
+}
+
+/*# sourceMappingURL=styleAudiovisual.css.map */
