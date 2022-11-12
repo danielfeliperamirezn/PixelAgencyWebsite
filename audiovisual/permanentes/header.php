@@ -7,7 +7,7 @@
 
     <link rel="icon" type="image/png" href="../assets/img/logo pixel agency.png" sizes="64x64">
     <!-- <link rel="stylesheet" href="../assets/css/styleAudiovisual.css"> -->
-    <link rel="stylesheet" href="./assets/css/styleAudiovisual.css">
+    <link rel="stylesheet" href="./assets/css/styleaudiovisual.css">
 
     <title>Pixel audiovisual</title>
 
