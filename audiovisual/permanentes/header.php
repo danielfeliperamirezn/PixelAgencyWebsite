@@ -8,6 +8,9 @@
     <link rel="icon" type="image/png" href="../assets/img/logo pixel agency.png" sizes="64x64">
     <!-- <link rel="stylesheet" href="../assets/css/styleAudiovisual.css"> -->
     <link rel="stylesheet" href="./assets/css/styleaudiovisual.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/animation.css">
+    <link rel="stylesheet" href="./assets/css/styleFonts.css">
 
     <title>Pixel audiovisual</title>
 
