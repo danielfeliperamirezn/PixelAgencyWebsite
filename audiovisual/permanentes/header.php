@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- <link rel="stylesheet" href="../assets/css/styleAudiovisual.css"> -->
-    <link rel="stylesheet" href="/pixelagency2/audiovisual/assets/css/styleAudiovisual.css">
+    <link rel="stylesheet" href="./assets/css/styleAudiovisual.css">
 
     <title>Pixel audiovisual</title>
 
