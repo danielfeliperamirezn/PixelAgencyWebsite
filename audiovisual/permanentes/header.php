@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="icon" type="image/png" href="../assets/img/logo pixel agency.png" sizes="64x64">
     <!-- <link rel="stylesheet" href="../assets/css/styleAudiovisual.css"> -->
     <link rel="stylesheet" href="./assets/css/styleAudiovisual.css">
 
     <title>Pixel audiovisual</title>
 
-    <meta name="description" content="Somos Lideres en diseño y desarrollo web y marketing digital, tiendas virtuales y posicionamiento SEO, Contáctanos.">
-    <meta name="keywords" content="Diseño web medellin, marketing ditial, publicidad digital, agencia digital medellin, soluciones web, páginas web medellin, redes sociales, agencia de marketing digital, agencia de marketing, seo, seo medellin, necesito una página web, ecomerce, tiendasvirutalesmedellin">
+    <meta name="description" content="Somos líderes en la creación de contenido AudioVisual para todo tipo de empresas y corporaciones.">
+    <meta name="keywords" content="Videos, marketing ditial, Videos con Drones, agencia digital medellin, Soluciones inmobiliarias, videos inmobiliarios, videos de propieades, fincas y lotes, lotes">
 
 </head>
 <body>

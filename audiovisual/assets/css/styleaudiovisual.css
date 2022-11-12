@@ -4,7 +4,7 @@
 }
 
 .colorStyle {
-  color: #fc4d4e;
+  color: #fc4d4e; 
 }
 
 a {
@@ -27,6 +27,7 @@ img {
   font-family: "MontserratBlack";
   src: url("../fuente/Montserrat-Black.ttf");
 }
+
 p, article, span, li, ul,
 input, textarea, select, strong {
   font-family: "MontserratLight" !important;
