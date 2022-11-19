@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "MontserratLight";
+  src: url("../fuente/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: "MontserratBlack";
+  src: url("../fuente/Montserrat-Black.ttf");
+}
+@font-face {
+  font-family: "MontserratRegular";
+  src: url("../fuente/Montserrat-Regular.ttf");
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  font-family: "MontserratRegular";
+}
+
+p, article, span, li, ul,
+input, textarea, select, strong {
+  font-family: "MontserratLight" !important;
+}
+
+h1, h2, h3, h4, h5, h6, button, alt {
+  font-family: "MontserratBlack";
+}
+
+main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #f3f3f3;
+  left: 0;
+  top: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em;
+  position: relative;
+}
+header figure {
+  width: 50%;
+}
+header .containerImageAvatar {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/DanielRamirez.webp);
+  background-position: center;
+  background-size: cover;
+  display: block;
+}
+header .containerInfo {
+  background-color: #fafafa;
+  box-sizing: content-box;
+  padding: 1em;
+  width: 50%;
+  border-radius: 0 20px 20px 0;
+}
+header .containerInfo h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fc4d4e;
+  margin: 0.2em 0;
+}
+header .containerInfo h2 {
+  color: #123FD8;
+  margin: 1em 0;
+  font-size: 0.9em;
+}
+header .containerInfo h3 {
+  color: #333;
+  margin: 1em 0;
+  font-size: 0.8em;
+}
+header .containerInfo h4 {
+  color: #333;
+  font-size: 0.7em;
+}
+
+.containerContact {
+  padding: 1em;
+  box-sizing: border-box;
+}
+.containerContact div {
+  margin: 1.5em;
+}
+.containerContact .contentSaveContact a {
+  padding: 0.5em;
+  text-transform: uppercase;
+  color: white;
+  display: block;
+  font-size: 1.3em;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #fc4d4e;
+}
+.containerContact .contentWhatsAppContact a {
+  padding: 0.5em;
+  text-transform: uppercase;
+  color: white;
+  display: block;
+  font-size: 1.3em;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #123FD8;
+}
+
+.containerSocialMedia {
+  padding: 2em;
+}
+.containerSocialMedia .contentSocialMedia {
+  text-align: center;
+}
+.containerSocialMedia .contentSocialMedia h2 {
+  text-transform: uppercase;
+  color: #fc4d4e;
+  padding-bottom: 0.5em;
+}
+.containerSocialMedia .contentSocialMedia div {
+  display: inline-block;
+  width: 35%;
+  margin: 1em;
+  border-radius: 15px;
+  padding: 1em;
+  box-sizing: border-box;
+}
+.containerSocialMedia .contentSocialMedia div a {
+  color: white;
+  font-size: 1.5em;
+}
+.containerSocialMedia .contentSocialMedia .contentFacebook {
+  background-color: #3b5998;
+}
+.containerSocialMedia .contentSocialMedia .contentInstagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+.containerSocialMedia .contentSocialMedia .contentYouTube {
+  background-color: #c4302b;
+}
+.containerSocialMedia .contentSocialMedia .contentWebSite {
+  background-color: #333;
+}
+
+.presentation {
+  margin: 1em;
+}
+.presentation article {
+  padding: 0.5em;
+  text-align: justify;
+}
+.presentation .contentSaveContact {
+  padding: 1em;
+  background-color: rgb(227, 227, 227);
+  text-align: center;
+  border-radius: 15px;
+}
+.presentation .contentSaveContact h3 {
+  padding: 1em;
+  color: #123FD8;
+  text-transform: uppercase;
+}
+.presentation .contentSaveContact a {
+  padding: 0.5em;
+  text-transform: uppercase;
+  color: white;
+  display: block;
+  font-size: 1.3em;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #fc4d4e;
+}
+
+/*# sourceMappingURL=stylePersona.css.map */

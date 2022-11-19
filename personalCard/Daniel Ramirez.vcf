@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 13.0.1//EN
+N:Ramirez;Daniel;;;
+FN:Daniel Ramirez
+ORG:Pixel Agency;
+EMAIL;type=INTERNET;type=WORK;type=pref:daniel@pixelagency.co
+TEL;type=CELL;type=VOICE;type=pref:(304) 560-360
+END:VCARD

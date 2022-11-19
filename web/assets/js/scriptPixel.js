@@ -119,8 +119,7 @@ $(function() {
     $('.container_slider').slick({
         slidesToShow: 1,
         autoplay: true,
-        speed: 700,
-        dots: true
+        speed: 700
     });
 
     $(".container_coments").slick({
