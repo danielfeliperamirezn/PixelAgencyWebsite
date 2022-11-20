@@ -24,10 +24,10 @@
         </header>
         <section class="containerContact">
             <div class="contentSaveContact">
-                <a href=""> <span class="icon-phone"></span> Guardar Contácto</a>
+                <a href="https://pixelagency.co/personalCard/danielRamirez.vcf" target="_blank"> <span class="icon-phone"></span> Guardar Contácto</a>
             </div>
             <div class="contentWhatsAppContact">
-                <a href=""> <span class="icon-whatsapp"></span> Chatea conmigo</a>
+                <a href="https://wa.link/u8a270" target="_blank"> <span class="icon-whatsapp"></span> Chatea conmigo</a>
             </div>
         </section>
         <section class="containerSocialMedia">
@@ -58,7 +58,7 @@
             </article>
             <div class="contentSaveContact">
                 <h3>Asesoría completamente gratis</h3>
-                <a href=""> <span class="icon-phone"></span> Guardar Contácto</a>
+                <a href="https://pixelagency.co/personalCard/danielRamirez.vcf" target="_blank"> <span class="icon-phone"></span> Guardar Contácto</a>
             </div>
         </section>
     </main>
