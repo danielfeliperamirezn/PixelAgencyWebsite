@@ -28,11 +28,11 @@ a {
 }
 
 p, article, span, li, ul,
-input, textarea, select, strong {
+input, textarea, select, strong, h4 {
   font-family: "MontserratLight" !important;
 }
 
-h1, h2, h3, h4, h5, h6, button, alt {
+h1, h2, h3, h5, h6, button, alt {
   font-family: "MontserratBlack";
 }
 
@@ -40,7 +40,7 @@ main {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #f3f3f3;
+  background-image: linear-gradient(to right bottom, #f8f8f8, #f6f6f6, #f4f5f4, #f3f3f3, #f1f1f1);
   left: 0;
   top: 0;
 }
@@ -49,19 +49,19 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1em;
+  margin: 3em 1em 0em;
   position: relative;
 }
 header figure {
   width: 50%;
 }
 header .containerImageAvatar {
-  width: 100%;
-  height: 100%;
+  width: 500px;
+  height: 232px;
   background-image: url(../img/DanielRamirez.webp);
   background-position: center;
   background-size: cover;
-  display: block;
+  border-radius: 20px 0 0 20px;
 }
 header .containerInfo {
   background-color: #fafafa;
@@ -89,6 +89,9 @@ header .containerInfo h3 {
 header .containerInfo h4 {
   color: #333;
   font-size: 0.7em;
+}
+header .containerInfo h4 span {
+  color: #fc4d4e;
 }
 
 .containerContact {
@@ -164,7 +167,7 @@ header .containerInfo h4 {
 }
 .presentation .contentSaveContact {
   padding: 1em;
-  background-color: rgb(227, 227, 227);
+  background-color: #fafafa;
   text-align: center;
   border-radius: 15px;
 }

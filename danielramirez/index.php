@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +19,7 @@
                 <h1>Daniel Ramirez</h1>
                 <h2>CEO - Pixel Agency</h2>
                 <h3>Diseñador y Desarrollador Web</h3>
-                <h4>10 años de experiencia en la Industria</h4>
+                <h4> <span> 10 años </span>de experiencia en la Industria</h4>
             </div>
         </header>
         <section class="containerContact">
@@ -33,17 +33,17 @@
         <section class="containerSocialMedia">
             <div class="contentSocialMedia">
                 <h2>Conoce mi Trabajo</h2>
+                <div class="contentWebSite">
+                    <a href="https://pixelagency.co" target="_blank"> <span class="icon-display"></span>  </a>
+                </div>
                 <div class="contentFacebook">
-                    <a href=""> <span class="icon-facebook"></span> </a>
+                    <a href="https://www.facebook.com/profile.php?id=100075720191256" target="_blank"> <span class="icon-facebook"></span> </a>
                 </div>
                 <div class="contentInstagram">
-                    <a href=""> <span class="icon-instagram"></span> </a>
+                    <a href="https://www.instagram.com/pixelagencyy/" target="_blank"> <span class="icon-instagram"></span> </a>
                 </div>
                 <div class="contentYouTube">
-                    <a href=""> <span class="icon-phone"></span>  </a>
-                </div>
-                <div class="contentWebSite">
-                    <a href=""> <span class="icon-display"></span>  </a>
+                    <a href="https://pixelagency.co/audiovisual" target="_blank"> <span class="icon-camera"></span>  </a>
                 </div>
             </div>
         </section>
