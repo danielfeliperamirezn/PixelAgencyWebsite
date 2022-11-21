@@ -24,7 +24,8 @@
         </header>
         <section class="containerContact">
             <div class="contentSaveContact">
-                <a href="../personalCard/danielRamirez.vcf" target="_blank"> <span class="icon-phone"></span> Guardar Contácto</a>
+                <!-- <a href="../personalCard/danielRamirez.vcf" target="_blank"> <span class="icon-phone"></span> Guardar Contácto</a> -->
+                <a href="https://drive.google.com/uc?id=1Fv2iHpWf7yIl7CXeubXFRL4JkJgbouA2&export=download" target="_blank"> <span class="icon-phone"></span> Guardar Contácto</a>
             </div>
             <div class="contentWhatsAppContact">
                 <a href="https://wa.link/u8a270" target="_blank"> <span class="icon-whatsapp"></span> Chatea conmigo</a>
@@ -58,7 +59,8 @@
             </article>
             <div class="contentSaveContact">
                 <h3>Asesoría completamente gratis</h3>
-                <a href="../personalCard/danielRamirez.vcf" target="_blank"> <span class="icon-phone"></span> Guardar Contácto</a>
+                <!-- <a href="../personalCard/danielRamirez.vcf" target="_blank"> <span class="icon-phone"></span> Guardar Contácto</a> -->
+                <a href="https://drive.google.com/uc?id=1Fv2iHpWf7yIl7CXeubXFRL4JkJgbouA2&export=download" target="_blank"> <span class="icon-phone"></span> Guardar Contácto</a>
             </div>
         </section>
     </main>
