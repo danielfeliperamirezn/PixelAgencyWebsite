@@ -44,7 +44,7 @@
         </div>
         <div class="resumenWebsite">
             <div class="contentResumenWebsite">
-                <h2>Landing Page</h2>
+                <h2>Página Web</h2>
                 <p>
                     Creamos un diseño 100% funcional para mostrar las principales características del sitio web, todos los 
                     cursos y talleres, la creación e integración de pasarela de pagos para reservar cupos y más.
