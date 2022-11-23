@@ -5,7 +5,7 @@
     <section class="containerProductDetails">
         <div class="containerHeaderProduct">
             <figure>
-                <img src="../assets/img/Portafolio/superGases/principal.webp" alt="Super Gases Medellin">
+                <img src="../assets/img/Portafolio/superGases/Principal.webp" alt="Super Gases Medellin">
             </figure>
             <div class="contentSplas">
                 <span>Más</span>
