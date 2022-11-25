@@ -1,0 +1,13 @@
+@keyframes animationButton {
+  0% {
+    bottom: 2em;
+  }
+  50% {
+    bottom: 3em;
+  }
+  100% {
+    bottom: 2em;
+  }
+}
+
+/*# sourceMappingURL=animation.css.map */

@@ -41,11 +41,31 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 main .containerImage {
   position: absolute;
   bottom: 0;
   left: 0;
+  max-height: 45%;
+}
+main .containerImage .contentMoreInfo {
+  position: absolute;
+  display: block;
+  bottom: 1em;
+  left: 0;
+  margin: 0 auto;
+  right: 0;
+  text-align: center;
+}
+main .containerImage .contentMoreInfo a {
+  background-color: #fc4d4e;
+  color: white;
+  padding: 0.5em 2em;
+  border-radius: 15px;
+  text-transform: uppercase;
+  box-shadow: 1px 5px 25px black;
+  font-size: 0.8em;
 }
 
 header {
@@ -65,13 +85,14 @@ header .containerInfo h2 {
   padding-bottom: 2em;
 }
 header .containerInfo h3 {
-  font-size: 1em;
+  font-size: 0.9em;
   color: white;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 header .containerInfo h4 {
   color: white;
+  font-size: 0.9em;
 }
 header .containerInfo h4 span {
   color: #fc4d4e;
@@ -81,26 +102,89 @@ header .containerInfo h4 span {
   text-align: center;
   margin: 1em;
 }
-.containerContact .contentSaveContact {
-  margin-bottom: 4em;
-}
-.containerContact .contentSaveContact a {
-  border: 1px solid #123FD8;
-  background-color: #123FD8;
-  border-radius: 5px;
-  text-transform: uppercase;
-  padding: 1em 1.5em;
-  color: white;
-  box-shadow: 1px 5px 25px black;
-}
 .containerContact .contentWhatsAppContact a {
   border: 1px solid #5bd485;
   background-color: #5bd485;
-  border-radius: 5px;
+  border-radius: 15px;
   text-transform: uppercase;
   padding: 1em 1.5em;
   color: white;
   box-shadow: 1px 5px 25px black;
+  text-shadow: 0 0px 20px #202020;
+}
+
+.containerHeader {
+  text-align: center;
+  padding: 4em 1em;
+  height: 20%;
+  background-image: url(../img/fotoOficna.webp);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.738);
+  position: relative;
+}
+.containerHeader h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.containerHeader h2 {
+  color: white;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.containerBody .containerSocialMedia .contentSocialMedia {
+  text-align: center;
+}
+.containerBody .containerSocialMedia .contentSocialMedia h1 {
+  color: #fc4d4e;
+  text-transform: uppercase;
+  padding: 1em;
+}
+.containerBody .containerSocialMedia .contentSocialMedia div {
+  display: inline-block;
+  margin: 0 1em;
+}
+.containerBody .containerSocialMedia .contentSocialMedia div a {
+  font-size: 2em;
+  color: white;
+}
+.containerBody .presentation {
+  margin: 1em;
+}
+.containerBody .presentation article {
+  padding: 0.5em;
+  text-align: justify;
+  color: white;
+}
+.containerBody .presentation .contentSaveContact {
+  padding: 1em;
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 2em;
+}
+.containerBody .presentation .contentSaveContact h3 {
+  padding: 1em;
+  color: #123FD8;
+  text-transform: uppercase;
+}
+.containerBody .presentation .contentSaveContact a {
+  border-radius: 15px;
+  text-transform: uppercase;
+  padding: 1em 1.5em;
+  color: white;
+  box-shadow: 1px 5px 25px black;
+  background-color: #123FD8;
+  font-size: 0.9em;
+  animation: infinite animationButton 4s;
+  position: absolute;
+  width: 50%;
+  left: 0;
+  bottom: 2em;
+  right: 0;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=stylePersona.css.map */
