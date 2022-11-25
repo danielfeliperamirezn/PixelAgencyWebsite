@@ -12,7 +12,7 @@
     <main>
         <div class="containerImage">
             <figure>
-                <img src="./assets/img/danielramirez_3.webp" alt="Daniel Ramirez">
+                <img src="./assets/img/danielRamirez_3.webp" alt="Daniel Ramirez">
             </figure>
         </div>
         <header>
