@@ -22,7 +22,7 @@
             </div>
         </header>
         <section class="containerContact">
-            <div class="contentSaveContact">
+            <div class="contentContact">
                 <a href="https://drive.google.com/uc?id=1Fv2iHpWf7yIl7CXeubXFRL4JkJgbouA2&export=download" target="_blank"> <span class="icon-database"></span> Guardar Contácto</a>
             </div>
             <div class="contentWhatsAppContact">
