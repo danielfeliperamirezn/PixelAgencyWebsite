@@ -15,176 +15,92 @@
   font-family: "MontserratRegular";
   src: url("../fuente/Montserrat-Regular.ttf");
 }
-a {
-  text-decoration: none;
-}
-
 img {
   max-width: 100%;
 }
 
 a {
   font-family: "MontserratRegular";
+  text-decoration: none;
 }
 
 p, article, span, li, ul,
-input, textarea, select, strong, h4 {
+input, textarea, select, strong, h2, h4 {
   font-family: "MontserratLight" !important;
 }
 
-h1, h2, h3, h5, h6, button, alt {
+h1, h3, h5, h6, button, alt {
   font-family: "MontserratBlack";
 }
 
 main {
+  background: rgb(8, 14, 26);
+  background: linear-gradient(174deg, rgb(8, 14, 26) 0%, rgb(0, 0, 0) 35%, rgb(52, 65, 82) 100%);
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right bottom, #f8f8f8, #f6f6f6, #f4f5f4, #f3f3f3, #f1f1f1);
+}
+main .containerImage {
+  position: absolute;
+  bottom: 0;
   left: 0;
-  top: 0;
 }
 
 header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 3em 1em 0em;
-  position: relative;
-}
-header figure {
-  width: 50%;
-}
-header .containerImageAvatar {
-  width: 500px;
-  height: 232px;
-  background-image: url(../img/DanielRamirez.webp);
-  background-position: center;
-  background-size: cover;
-  border-radius: 20px 0 0 20px;
-}
-header .containerInfo {
-  background-color: #fafafa;
-  box-sizing: content-box;
-  padding: 1em;
-  width: 50%;
-  border-radius: 0 20px 20px 0;
+  text-align: center;
+  padding: 4em 1em;
 }
 header .containerInfo h1 {
+  text-align: center;
+  color: white;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #fc4d4e;
-  margin: 0.2em 0;
+  letter-spacing: 1px;
 }
 header .containerInfo h2 {
-  color: #123FD8;
-  margin: 1em 0;
-  font-size: 0.9em;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  color: white;
+  padding-bottom: 2em;
 }
 header .containerInfo h3 {
-  color: #333;
-  margin: 1em 0;
-  font-size: 0.8em;
+  font-size: 1em;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 header .containerInfo h4 {
-  color: #333;
-  font-size: 0.7em;
+  color: white;
 }
 header .containerInfo h4 span {
   color: #fc4d4e;
 }
 
 .containerContact {
-  padding: 1em;
-  box-sizing: border-box;
+  text-align: center;
+  margin: 1em;
 }
-.containerContact div {
-  margin: 1.5em;
+.containerContact .contentSaveContact {
+  margin-bottom: 4em;
 }
 .containerContact .contentSaveContact a {
-  padding: 0.5em;
+  border: 1px solid #123FD8;
+  background-color: #123FD8;
+  border-radius: 5px;
   text-transform: uppercase;
+  padding: 1em 1.5em;
   color: white;
-  display: block;
-  font-size: 1.3em;
-  border-radius: 15px;
-  text-align: center;
-  background-color: #fc4d4e;
+  box-shadow: 1px 5px 25px black;
 }
 .containerContact .contentWhatsAppContact a {
-  padding: 0.5em;
+  border: 1px solid #5bd485;
+  background-color: #5bd485;
+  border-radius: 5px;
   text-transform: uppercase;
+  padding: 1em 1.5em;
   color: white;
-  display: block;
-  font-size: 1.3em;
-  border-radius: 15px;
-  text-align: center;
-  background-color: #123FD8;
-}
-
-.containerSocialMedia {
-  padding: 2em;
-}
-.containerSocialMedia .contentSocialMedia {
-  text-align: center;
-}
-.containerSocialMedia .contentSocialMedia h2 {
-  text-transform: uppercase;
-  color: #fc4d4e;
-  padding-bottom: 0.5em;
-}
-.containerSocialMedia .contentSocialMedia div {
-  display: inline-block;
-  width: 35%;
-  margin: 1em;
-  border-radius: 15px;
-  padding: 1em;
-  box-sizing: border-box;
-}
-.containerSocialMedia .contentSocialMedia div a {
-  color: white;
-  font-size: 1.5em;
-}
-.containerSocialMedia .contentSocialMedia .contentFacebook {
-  background-color: #3b5998;
-}
-.containerSocialMedia .contentSocialMedia .contentInstagram {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-}
-.containerSocialMedia .contentSocialMedia .contentYouTube {
-  background-color: #c4302b;
-}
-.containerSocialMedia .contentSocialMedia .contentWebSite {
-  background-color: #333;
-}
-
-.presentation {
-  margin: 1em;
-}
-.presentation article {
-  padding: 0.5em;
-  text-align: justify;
-}
-.presentation .contentSaveContact {
-  padding: 1em;
-  background-color: #fafafa;
-  text-align: center;
-  border-radius: 15px;
-}
-.presentation .contentSaveContact h3 {
-  padding: 1em;
-  color: #123FD8;
-  text-transform: uppercase;
-}
-.presentation .contentSaveContact a {
-  padding: 0.5em;
-  text-transform: uppercase;
-  color: white;
-  display: block;
-  font-size: 1.3em;
-  border-radius: 15px;
-  text-align: center;
-  background-color: #fc4d4e;
+  box-shadow: 1px 5px 25px black;
 }
 
 /*# sourceMappingURL=stylePersona.css.map */
