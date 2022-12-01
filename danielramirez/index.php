@@ -22,8 +22,13 @@
             </div>
         </header>
         <section class="containerContact">
+<<<<<<< HEAD
             <div class="contentContact">
                 <a href="https://drive.google.com/uc?id=1SBc8XZBlPWL23-h81GD3U9qG0kZWv8zv&export=download" target="_blank"> <span class="icon-database"></span> Guardar Contácto</a>
+=======
+            <div class="contentSaveContact">
+                <a href="https://drive.google.com/uc?id=1Fv2iHpWf7yIl7CXeubXFRL4JkJgbouA2&export=download" target="_blank"> <span class="icon-database"></span> Guardar Contácto</a>
+>>>>>>> parent of 4f4f62f (correccion de style)
             </div>
             <div class="contentWhatsAppContact">
                 <a href="https://wa.link/u8a270" target="_blank"> <span class="icon-whatsapp"></span> Chatea conmigo</a>
