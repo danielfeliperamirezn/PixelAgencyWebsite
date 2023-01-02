@@ -6,7 +6,7 @@
     <main>
         <div class="containerImage">
             <figure>
-                <img src="./assets/img/danielRamirez_3.webp" alt="Daniel Ramirez">
+                <img src="./assets/img/danielEcard.webp" alt="Daniel Ramirez">
             </figure>
             <div class="contentMoreInfo">
                 <a href="daniel.php"> <span class="icon-star-full"></span> Más</a>
