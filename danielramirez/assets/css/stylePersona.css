@@ -70,6 +70,9 @@ main .containerImage .contentMoreInfo a {
 header {
   text-align: center;
   padding: 4em 1em;
+  position: relative;
+  z-index: 99;
+  background: linear-gradient(180deg, rgba(8, 14, 26, 0.4402354692) 0%, rgb(8, 14, 26) 49%, rgb(8, 14, 26) 100%);
 }
 header .containerInfo h1 {
   text-align: center;
