@@ -27,7 +27,7 @@
                     </br> <strong> Guarda mi contácto y agendemos una reunión virtual. </strong>
                 </article>
                 <div class="contentSaveContact">
-                    <a href="https://drive.google.com/uc?id=1jG0Vanbu5Bt1KeV5eKWiULqZlejGIF-W&export=download" target="_blank"> <span class="icon-phone"></span> Guardar Contácto</a>
+                    <a href="./contactos/DanielRamirez.vcf" download="contact" target="_blank"> <span class="icon-phone"></span> Guardar Contácto</a>
                 </div>
             </section>
         </section>
