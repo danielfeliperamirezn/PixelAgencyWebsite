@@ -10,6 +10,15 @@
 
         gtag('config', 'G-FG0N4MP89S');
     </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LE24LQP4HE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-LE24LQP4HE');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="IBrab_MqG7Z4FRapf0ALC66J-mqHaxVW_yjKNEFh3d8" />
