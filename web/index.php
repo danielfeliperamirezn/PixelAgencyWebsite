@@ -306,16 +306,16 @@
                             <figure><img src="./assets/img/Marcas/ramirartes.png" alt=""></figure>
                         </li>
                         <li>
-                            <figure><img src="./assets/img/Marcas/santorini.png" alt=""></figure>
+                            <figure><img src="./assets/img/Marcas/drakon.webp" alt=""></figure>
                         </li>
                         <li>
                             <figure><img src="./assets/img/Marcas/munsus.webp" alt="Munsus"></figure>
                         </li>
                         <li>
-                            <figure><img src="./assets/img/Marcas/sap.png" alt="SAP miami"></figure>
+                            <figure><img src="./assets/img/Marcas/sap.webp" alt="SAP miami"></figure>
                         </li>
                         <li>
-                            <figure><img src="./assets/img/Marcas/Drakon.png" alt=""></figure>
+                            <figure><img src="./assets/img/Marcas/rikatas.webp" alt=""></figure>
                         </li>
                       
                     </ul> 
