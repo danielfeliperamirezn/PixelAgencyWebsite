@@ -38,7 +38,7 @@
                    desde el 2010 se está posisionando como una de las marcas más importantes
                    a nivel nacional en la creación de ropa para mujeres.
                 </p>
-                <a target="_blank" href="http://jakofashion.com"> Ir al Sitio</a>
+                <!-- <a target="_blank" href="http://jakofashion.com"> Ir al Sitio</a> -->
             </div>
         </div>
         <div class="resumenWebsite">

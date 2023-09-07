@@ -39,7 +39,7 @@
                     adelgazar, cremas, fajas y otros productos de consumo para la mujer, cuenta con 
                     una amplia experiencia y trayectoria en este sector.
                 </p>
-                <a target="_blank" href="http://urologosunidos.com"> Ir al Sitio</a>
+                <!-- <a target="_blank" href="http://urologosunidos.com"> Ir al Sitio</a> -->
             </div>
         </div>
         <div class="resumenWebsite">

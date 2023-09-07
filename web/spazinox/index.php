@@ -39,7 +39,7 @@
                    especializado en la venta de fincas y lotes en el suroeste antioqueño 
                    con una gran trayectoria y profesionalismo en el sistema.
                 </p>
-                <a target="_blank" href="http://spazinox.com"> Ir al Sitio</a>
+                <!-- <a target="_blank" href="http://spazinox.com"> Ir al Sitio</a> -->
             </div>
         </div>
         <div class="resumenWebsite">

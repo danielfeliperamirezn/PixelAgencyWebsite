@@ -38,7 +38,7 @@
                    Empresa de Gases Industriales #1 en el sector de embase y distribución de Gas industrial a nivel Regional, exportando 
                    a más de 12 municipios de Colombia Super Gases Medellin se posiciona como la mejor en su industria
                 </p>
-                <a target="_blank" href="http://supergasesmedellin.com"> Ir al Sitio</a>
+                <!-- <a target="_blank" href="http://supergasesmedellin.com"> Ir al Sitio</a> -->
             </div>
         </div>
         <div class="resumenWebsite">

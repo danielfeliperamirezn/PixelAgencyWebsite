@@ -5,7 +5,7 @@
     <section class="containerProductDetails">
         <div class="containerHeaderProduct">
             <figure>
-                <img src="../assets/img/Portafolio/compurescate/1.jpg" alt="compurescate">
+                <img src="../assets/img/slider/drakon-min.webp" alt="Drakon Industry">
             </figure>
             <div class="contentSplas">
                 <span>Más</span>
@@ -16,10 +16,10 @@
                 <div>  
                     <h3>Cliente</h3>
                     <ul>
-                        <li>Compurescate</li>
+                        <li>Enrique Naranjo</li>
                         <li>Año</li>
-                        <li>2021</li>
-                        <li>Medellin, Colombia</li>
+                        <li>2020</li>
+                        <li>Medellin - Colombia</li>
                     </ul>
                 </div>
                 <div>
@@ -27,41 +27,40 @@
                     <ul>
                         <li><span>•</span> Diseño Web</li>
                         <li><span>•</span> Programación</li>
-                        <li><span>•</span> Posicionamiento</li>
-                        <li><span>•</span> Estrategia digital</li>
+                        <li><span>•</span> Redes Sociales</li>
                     </ul>
                 </div>
             </div>
             <div class="rightResumen">
                 <h2>Review</h2>
                 <p>
-                   Empresa dedicada a la reparación de computadores y reparación de impresoras a Domicilio en todo el Valle de aburrá 
-                   con más de 10 años de experiencia y un excelente reporte en Google.
+                   Drakon es una empresa que se dedica a la producción y comercialización de prendas deportivas a nivel nacional e Internacional, innovación 
+                   de textites y maquila de trabajo a nivel nacional.
                 </p>
-                <!-- <a target="_blank" href="http://compurescate.co/"> Ir al Sitio</a> -->
+                <a target="_blank" href="http://www.drakon.com.co"> Ir al Sitio</a>
             </div>
         </div>
         <div class="resumenWebsite">
             <div class="contentResumenWebsite">
                 <h2>Landing Page</h2>
                 <p>
-                    Se crea una Landing page 100% adaptable a cualquier dispositivo, simplificando la lectura del sitio y claridad de los servicios que presta.
+                    Un diseño minimalista y muy básico enfocado en mostrar cada trabajo y la versatilidad de para que sea limpio y de fácil acceso para la compra rápida en el 
+                    sitio web
                 </p>
             </div>
             <div class="contentImageClient">
                 <figure>
-                    <img src="../assets/img/Portafolio/compurescate/2.jpg" alt="Compurescate">
+                    <img src="../assets/img/Portafolio/drakon/1.webp" alt="Drakon">
                 </figure>
                 <figure>
-                    <img src="../assets/img/Portafolio/compurescate/3.jpg" alt="Compurescate">
+                    <img src="../assets/img/Portafolio/drakon/2.webp" alt="">
                 </figure>
             </div>
         </div>
     </section>
     <div class="container_next_product">
-        <a href="../3wishes">Próximo Cliente - <span>3 Wishes Event Designers...</span> <span class="espacio"> &#160; </span></a>
+        <a href="../secretoBelleza">Próximo Cliente - <span>Secreto De Belleza...</span> <span class="espacio"> &#160; </span></a>
     </div>
-
 
 <?php 
     include("../permanentes/footer.php");

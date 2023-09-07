@@ -39,7 +39,7 @@
                    desarrollando ideas innovadoras dando una experiencia diferente a la reservación y eventos
                    realizados.
                 </p>
-                <a target="_blank" href="http://3wisheseventdesigners.com/"> Ir al Sitio</a>
+                <!-- <a target="_blank" href="http://3wisheseventdesigners.com/"> Ir al Sitio</a> -->
             </div>
         </div>
         <div class="resumenWebsite">

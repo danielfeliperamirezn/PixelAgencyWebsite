@@ -5,7 +5,7 @@
     <section class="containerProductDetails">
         <div class="containerHeaderProduct">
             <figure>
-                <img src="../assets/img/Portafolio/compurescate/1.jpg" alt="compurescate">
+                <img src="../assets/img/Portafolio/santamaria/principal.webp" alt="Santa Maria de Venecia">
             </figure>
             <div class="contentSplas">
                 <span>Más</span>
@@ -16,10 +16,10 @@
                 <div>  
                     <h3>Cliente</h3>
                     <ul>
-                        <li>Compurescate</li>
+                        <li>Secreto de belleza</li>
                         <li>Año</li>
-                        <li>2021</li>
-                        <li>Medellin, Colombia</li>
+                        <li>2020</li>
+                        <li>Medellin - Colombia</li>
                     </ul>
                 </div>
                 <div>
@@ -27,39 +27,37 @@
                     <ul>
                         <li><span>•</span> Diseño Web</li>
                         <li><span>•</span> Programación</li>
-                        <li><span>•</span> Posicionamiento</li>
-                        <li><span>•</span> Estrategia digital</li>
                     </ul>
                 </div>
             </div>
             <div class="rightResumen">
                 <h2>Review</h2>
                 <p>
-                   Empresa dedicada a la reparación de computadores y reparación de impresoras a Domicilio en todo el Valle de aburrá 
-                   con más de 10 años de experiencia y un excelente reporte en Google.
+                   Santamaria de venecia es una parcelación en Venecia Antioquia, a 5min del pueblo, 1 hora de Medellín. clima calido, excelentes aguas
+                   y un desarrollo extraordinario.
                 </p>
-                <!-- <a target="_blank" href="http://compurescate.co/"> Ir al Sitio</a> -->
+                <a target="_blank" href="https://santamariadevenecia.com/"> Ir al Sitio</a>
             </div>
         </div>
         <div class="resumenWebsite">
             <div class="contentResumenWebsite">
                 <h2>Landing Page</h2>
                 <p>
-                    Se crea una Landing page 100% adaptable a cualquier dispositivo, simplificando la lectura del sitio y claridad de los servicios que presta.
+                    Se diseña una página de aterrizaje orientada a la venta de lotes en el suroeste Antioqueño, Venecia antioquia.
                 </p>
             </div>
             <div class="contentImageClient">
                 <figure>
-                    <img src="../assets/img/Portafolio/compurescate/2.jpg" alt="Compurescate">
+                    <img src="../assets/img/Portafolio/santamaria/1.webp" alt="Santamaaria de Venecia">
                 </figure>
                 <figure>
-                    <img src="../assets/img/Portafolio/compurescate/3.jpg" alt="Compurescate">
+                    <img src="../assets/img/Portafolio/santamaria/2.webp" alt="Santamaaria de Venecia">
                 </figure>
             </div>
         </div>
     </section>
     <div class="container_next_product">
-        <a href="../3wishes">Próximo Cliente - <span>3 Wishes Event Designers...</span> <span class="espacio"> &#160; </span></a>
+        <a href="../munsus">Próximo Cliente - <span>munsus...</span> <span class="espacio"> &#160; </span></a>
     </div>
 
 

@@ -41,7 +41,7 @@
                     similique alias at inventore cupiditate dicta! Ea odio atque iusto
                     provident beatae.
                 </p>
-                <a target="_blank" href="http://smartsolutionsmed.com"> Ir al Sitio</a>
+                <!-- <a target="_blank" href="http://smartsolutionsmed.com"> Ir al Sitio</a> -->
             </div>
         </div>
         <div class="resumenWebsite">
